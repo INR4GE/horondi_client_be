@@ -1,0 +1,2415 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`querries delete news 1`] = `
+Object {
+  "data": Object {
+    "deleteNews": null,
+  },
+}
+`;
+
+exports[`querries should receive author, images 1`] = `
+Object {
+  "data": Object {
+    "getAllNews": Array [
+      Object {
+        "author": Object {
+          "image": Object {
+            "small": "https://ukr.media/static/ba/aimg/4/1/7/417067_0.jpg",
+          },
+          "name": Array [
+            Object {
+              "lang": "uk",
+              "value": "Данута Ланська",
+            },
+            Object {
+              "lang": "en",
+              "value": "Danuta Lanska",
+            },
+          ],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": "https://ukr.media/static/ba/aimg/3/9/3/393626_3.jpg",
+              "small": null,
+            },
+            Object {
+              "large": null,
+              "medium": "https://ukr.media/static/ba/aimg/3/9/3/393626_4.jpg",
+              "small": null,
+            },
+            Object {
+              "large": null,
+              "medium": "https://ukr.media/static/ba/aimg/3/9/3/393626_5.jpg",
+              "small": null,
+            },
+          ],
+          "primary": Object {
+            "medium": "https://ukr.media/static/ba/aimg/3/9/3/393626_1.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": Object {
+            "small": "https://s.032.ua/section/userphoto/upload/managers/photos/000/051/775/866162337758924195687066424348618920034304n_5e4a57bc8f345.jpg",
+          },
+          "name": Array [
+            Object {
+              "lang": "uk",
+              "value": "Марія Нашова",
+            },
+            Object {
+              "lang": "en",
+              "value": "Mariya Nashova",
+            },
+          ],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": "https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/solomani_5edf8e4b209ed.jpg",
+              "small": null,
+            },
+            Object {
+              "large": null,
+              "medium": "https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/11_5edf8f3209c11.jpg",
+              "small": null,
+            },
+            Object {
+              "large": null,
+              "medium": "https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/cepki_5edf8fffc7403.jpg",
+              "small": null,
+            },
+            Object {
+              "large": null,
+              "medium": "https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/ertfg4_5edf90563e5b1.jpg",
+              "small": null,
+            },
+            Object {
+              "large": null,
+              "medium": "https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/9_5edf90b4381c8.jpg",
+              "small": null,
+            },
+            Object {
+              "large": null,
+              "medium": "https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/11_5edf9163c6237.jpg",
+              "small": null,
+            },
+            Object {
+              "large": null,
+              "medium": "https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/7_5edf942a343c8.jpg",
+              "small": null,
+            },
+          ],
+          "primary": Object {
+            "medium": "https://s.032.ua/section/newsInternalIcon/upload/images/news/icon/000/052/185/trendi-lita-golovna_5edf9266621db.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": Object {
+            "small": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+          },
+          "name": Array [
+            Object {
+              "lang": "uk",
+              "value": "Денис Когут",
+            },
+            Object {
+              "lang": "en",
+              "value": "Denys Kogut",
+            },
+          ],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "https://intersumka.ua/image/catalog/_all/banan2.jpg",
+            },
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "https://intersumka.ua/image/catalog/_all/banan3.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "https://images.stylight.net/image/upload/t_web_post_500x667/q_auto,f_auto/post-c27c63a5b58deb0d4535ddd5993e68b2e4d0776d756fdc41c0f7c391.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": Object {
+            "small": "ASDASD",
+          },
+          "name": Array [
+            Object {
+              "lang": "ADSAD",
+              "value": "ASDASD",
+            },
+            Object {
+              "lang": "DASDASD",
+              "value": "ADSASD",
+            },
+          ],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": "ASDASDASD",
+              "medium": null,
+              "small": null,
+            },
+          ],
+          "primary": Object {
+            "medium": null,
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "author": Object {
+          "image": null,
+          "name": Array [],
+        },
+        "images": Object {
+          "additional": Array [
+            Object {
+              "large": null,
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+    ],
+  },
+  "loading": false,
+  "networkStatus": 7,
+  "stale": false,
+}
+`;
+
+exports[`querries should receive id,title 1`] = `
+Object {
+  "data": Object {
+    "getAllNews": Array [
+      Object {
+        "_id": "5ef3970c0ab5dd42436dd5cf",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": "https://ukr.media/static/ba/aimg/3/9/3/393626_3.jpg",
+              "small": null,
+            },
+            Object {
+              "medium": "https://ukr.media/static/ba/aimg/3/9/3/393626_4.jpg",
+              "small": null,
+            },
+            Object {
+              "medium": "https://ukr.media/static/ba/aimg/3/9/3/393626_5.jpg",
+              "small": null,
+            },
+          ],
+          "primary": Object {
+            "medium": "https://ukr.media/static/ba/aimg/3/9/3/393626_1.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5ef3970c0ab5dd42436dd5d0",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": "https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/solomani_5edf8e4b209ed.jpg",
+              "small": null,
+            },
+            Object {
+              "medium": "https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/11_5edf8f3209c11.jpg",
+              "small": null,
+            },
+            Object {
+              "medium": "https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/cepki_5edf8fffc7403.jpg",
+              "small": null,
+            },
+            Object {
+              "medium": "https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/ertfg4_5edf90563e5b1.jpg",
+              "small": null,
+            },
+            Object {
+              "medium": "https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/9_5edf90b4381c8.jpg",
+              "small": null,
+            },
+            Object {
+              "medium": "https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/11_5edf9163c6237.jpg",
+              "small": null,
+            },
+            Object {
+              "medium": "https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/7_5edf942a343c8.jpg",
+              "small": null,
+            },
+          ],
+          "primary": Object {
+            "medium": "https://s.032.ua/section/newsInternalIcon/upload/images/news/icon/000/052/185/trendi-lita-golovna_5edf9266621db.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5ef3970c0ab5dd42436dd5d1",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "https://intersumka.ua/image/catalog/_all/banan2.jpg",
+            },
+            Object {
+              "medium": null,
+              "small": "https://intersumka.ua/image/catalog/_all/banan3.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "https://images.stylight.net/image/upload/t_web_post_500x667/q_auto,f_auto/post-c27c63a5b58deb0d4535ddd5993e68b2e4d0776d756fdc41c0f7c391.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5effa0a2943a4d176cf90619",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": null,
+            },
+          ],
+          "primary": Object {
+            "medium": null,
+          },
+        },
+      },
+      Object {
+        "_id": "5f032cd886bb8b19c4a809a0",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032d0986bb8b19c4a80a41",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032d1fd91f8e2c48cefd39",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032d24d91f8e2c48cefdfe",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032d3c2a297f3074326b1e",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032d42a65ade35cc60e949",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032d4bccdb6429b4603cc0",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032d50cfb6753074bad489",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032d55cfb6753074bad5a8",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032d740a31d93c78994adf",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032d7e0a31d93c78994c22",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032dce0a31d93c78994d77",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032de7bf325d35a81b66f5",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032de9bf325d35a81b686e",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032e0e0bae542e78f6aa98",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032e110bae542e78f6ac35",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032e264428e731a4e89310",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032e294428e731a4e894fd",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032e440f91374144787d67",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032e4e9e54e53e1067dfc6",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032e67f3d74c35c456ca2c",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032e69f3d74c35c456cc35",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032e9a11ac9f1d0c1dc211",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032ea411ac9f1d0c1dc43e",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032eaeb8fc923d188754c3",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032eb0b8fc923d18875714",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032ebe67185912d4ceb167",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032ec24508ad15a0fceb29",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032eca1bf733312862667d",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032eda1bf7333128626916",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032ee61bf7333128626bc1",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032f31a4a11e1af4e00cef",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032f36fe9a8a075423f59b",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032f38fe9a8a075423f82e",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032f545e76264060067ad0",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032f6844cdfe41e8ec688a",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032f7f44cdfe41e8ec6ba1",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032faa44cdfe41e8ec6eca",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032fb144cdfe41e8ec7205",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032fba44cdfe41e8ec7552",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032fcffccf574124678946",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032fd0fccf574124678cb7",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032fe2228afc302c83b56f",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032fe4228afc302c83b904",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032ff2228afc302c83bcab",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f032ffb228afc302c83c064",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f03300f92744e28c46404f2",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f03301392744e28c46408cf",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f03301d92744e28c4640c52",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f0330260d2c104250740934",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f03302a98d5183bf057582d",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f03303098d5183bf0575c52",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f03303798d5183bf0576089",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f03303f8c6b4d415cd68dd7",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f0330460b1aed428ccdc3a7",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f0330460b1aed428ccdc4ba",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f03304d0b1aed428ccdc939",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f03305a0b1aed428ccdcdca",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f0330660b1aed428ccdd26d",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f03306e14aab93ad8919016",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+      Object {
+        "_id": "5f033076218861114462110a",
+        "images": Object {
+          "additional": Array [
+            Object {
+              "medium": null,
+              "small": "dfgfdg.jpg",
+            },
+          ],
+          "primary": Object {
+            "medium": "sdfsdf4.jpg",
+          },
+        },
+      },
+    ],
+  },
+  "loading": false,
+  "networkStatus": 7,
+  "stale": false,
+}
+`;
+
+exports[`querries should receive one news author, images 1`] = `
+Object {
+  "data": Object {
+    "getNewsById": Object {
+      "author": Object {
+        "image": Object {
+          "small": "https://ukr.media/static/ba/aimg/4/1/7/417067_0.jpg",
+        },
+        "name": Array [
+          Object {
+            "lang": "uk",
+            "value": "Данута Ланська",
+          },
+          Object {
+            "lang": "en",
+            "value": "Danuta Lanska",
+          },
+        ],
+      },
+      "images": Object {
+        "additional": Array [
+          Object {
+            "large": null,
+            "medium": "https://ukr.media/static/ba/aimg/3/9/3/393626_3.jpg",
+            "small": null,
+          },
+          Object {
+            "large": null,
+            "medium": "https://ukr.media/static/ba/aimg/3/9/3/393626_4.jpg",
+            "small": null,
+          },
+          Object {
+            "large": null,
+            "medium": "https://ukr.media/static/ba/aimg/3/9/3/393626_5.jpg",
+            "small": null,
+          },
+        ],
+        "primary": Object {
+          "medium": "https://ukr.media/static/ba/aimg/3/9/3/393626_1.jpg",
+        },
+      },
+    },
+  },
+  "loading": false,
+  "networkStatus": 7,
+  "stale": false,
+}
+`;
+
+exports[`querries should receive one news id,title 1`] = `
+Object {
+  "data": Object {
+    "getNewsById": Object {
+      "_id": "5ef3970c0ab5dd42436dd5cf",
+      "images": Object {
+        "additional": Array [
+          Object {
+            "medium": "https://ukr.media/static/ba/aimg/3/9/3/393626_3.jpg",
+            "small": null,
+          },
+          Object {
+            "medium": "https://ukr.media/static/ba/aimg/3/9/3/393626_4.jpg",
+            "small": null,
+          },
+          Object {
+            "medium": "https://ukr.media/static/ba/aimg/3/9/3/393626_5.jpg",
+            "small": null,
+          },
+        ],
+        "primary": Object {
+          "medium": "https://ukr.media/static/ba/aimg/3/9/3/393626_1.jpg",
+        },
+      },
+    },
+  },
+  "loading": false,
+  "networkStatus": 7,
+  "stale": false,
+}
+`;
+
+exports[`querries should receive one news text, video, date 1`] = `
+Object {
+  "data": Object {
+    "getNewsById": Object {
+      "date": "1565824238000",
+      "text": Array [
+        Object {
+          "lang": "uk",
+          "value": "<p>Ми виділили для вас топ найгарячіших трендів на цей аксесуар.</p><p>Сучасні модниці не мислять своїх образів без модної сумки, змінюючи практично кожен день одну модель на іншу, демонструючи щоразу свіжі образи з новинками сумок.</p><p>Як йдеться сумок багато не буває, і це не даремно. Адже у кожної модної сумки є своє призначення, коли її краще включити в образ, а коли краще залишити вдома на полиці.</p><p>Дизайнери весь час вносять нові корективи в моделі сумок, що і сталося в сезоні осінь-зима 2019-2020. Модні сумки в прийдешньому сезоні будуть більш гармонійними та делікатними, без зайвого епатажу і химерності.</p><p>Серед новинок сезону осінь-зима, виявляться сумки в незвичайних рішеннях. Це хутряні та сумки плюшеві, що бездоганно увіллються в осінньо-зимові тандеми жіночих образів на холодний сезон.</p><p>Продовжиться тренд на різні форми сумок, але ось круглі моделі сумок осінь-зима, відійдуть на другий план. На піку популярності будуть трикутні сумки, подовжені сумки, сумки квадратної і прямокутної форми, у вигляді піраміди та циліндра, а також інших неймовірних форм.</p><p>Розглядаючи фото звіти з останніх показів осінь-зима на Тижнях моди, варто виділити головні тренди сумок 2019-2020 роки:</p><ul><li>хутряні та сумки плюшеві;</li><li>сумки в стилі «тотал лук» або тон-в-тон;</li><li>об’єднані сумки;</li><li>сумки з ефектним декором і шипами;</li><li>стьобані сумки капітоні;</li><li>сумки на широкому ремінці;</li><li>сумки з квітковими деталями та аплікаціями;</li><li>хиже забарвлення на сумках осінь-зима;</li><li>яскраві неонові та кислотні кольори сумок осінь-зима;</li><li>сумка сетчел на осінь-зиму;</li><li>сумки з логотипами;</li><li>геометричні сумки.</li></ul><p>Це не повний перелік трендів, що будуть головувати в області новомодних сумок осінь-зима 2019-2020. Більше ідей ви зможете відшукати на фото колекції, що ми підготували.</p><p>Хотілося б ще акцентувати на модне рішення, що запропонували дизайнери — це комплект сумок. Що це означає? Ви зможете підібрати велику сумку, як наприклад, шоппер, доповнивши її маленькою сумкою або так званою мікро-сумкою.</p><p>В такому чудовому тандемі кожна сумка на осінь-зиму виконуватиме свою функцію і призначення, як це і годиться, що дуже зручно. Такий новий тренд з модними сумочками осінь-зима модниці зможуть по достоїнству оцінити вже зовсім скоро.</p><p>Ми підготували для вас зручний фото рейтинг найбільш модних сумок на майбутній сезон, розглядаючи який ви зможете легко зорієнтуватися, які сумки будуть трендовими і бажаними найближчим часом.</p>",
+        },
+        Object {
+          "lang": "en",
+          "value": "<p>We have selected for you the top hottest trends for this accessory.</p><p>Modern fashionistas do not think of their images without a fashionable bag, changing almost every day one model to another, showing each time fresh images with new bags.</p><p>As they say, there are not many bags, and this is not in vain. After all, every fashionable bag has its purpose, when it is better to include it in the image, and when it is better to leave it on the shelf at home.</p><p>Designers are constantly making new adjustments to the model of bags, which happened in the autumn-winter season 2019-2020. Fashionable bags in the coming season will be more harmonious and delicate, without unnecessary outrage and whimsy.</p><p>Among the novelties of the autumn-winter season, bags will be found in unusual solutions. These are fur and plush bags that will perfectly fit into the autumn-winter tandems of women&apos;s images for the cold season.</p><p>The trend for different forms of bags will continue, but the round models of autumn-winter bags will recede into the background. At the peak of popularity will be triangular bags, elongated bags, bags of square and rectangular shape, in the form of a pyramid and a cylinder, as well as other incredible shapes.</p><p>Considering the photo reports from the latest shows of autumn-winter at the Fashion Weeks, it is worth highlighting the main trends of handbags 2019-2020:</p><ul><li>fur and plush bags;</li><li>bags in the style of \\"total bow\\" or tone-on-tone;</li><li>combined bags;</li><li>bags with spectacular decor and spikes;</li><li>quilted captain&apos;s bags;</li><li>bags on a wide strap;</li><li>bags with floral details and applications;</li><li>predatory coloring on bags autumn-winter;</li><li>bright neon and acid colors of autumn-winter bags;</li><li>satchel bag for fall-winter;</li><li>bags with logos;</li><li>geometric bags.</li></ul><p>This is not a complete list of trends that will lead in the field of new-fangled bags fall-winter 2019-2020. You can find more ideas in the photo of the collection we have prepared.</p><p>I would like to emphasize the fashionable solution offered by the designers - a set of bags. What does it mean? You can choose a large bag, such as a shopper, complementing it with a small bag or so-called micro-bag.</p><p>In such a wonderful tandem, each bag for autumn-winter will perform its function and purpose, as it should, which is very convenient. This new trend with fashionable handbags fall-winter fashionistas will be able to appreciate very soon.</p><p>We have prepared for you a convenient photo rating of the most fashionable bags for the upcoming season, considering which you can easily find out which bags will be trendy and desirable in the near future.</p>",
+        },
+      ],
+      "video": "https://www.youtube.com/embed/maP6Daq83fM",
+    },
+  },
+  "loading": false,
+  "networkStatus": 7,
+  "stale": false,
+}
+`;
