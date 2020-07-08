@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 const { gql } = require('apollo-boost');
 const client = require('../../utils/apolloClient');
-const { newsQuery, newsMutation } = require('../../modules/news/news.resolver');
+const { newsQuery } = require('../../modules/news/news.resolver');
 require('dotenv').config();
 const newsService = require('../../modules/news/news.service');
 
@@ -25,7 +25,9 @@ describe('querries', () => {
         }
       `,
     });
+    expect(res).toMatchSnapshot();
     expect(newsQuery.getAllNews()).resolves.toBe(res);
+    expect(newsService.getAllNews()).resolves.toBe(res);
   });
 
   test('should receive text, video, date', async () => {
@@ -44,6 +46,7 @@ describe('querries', () => {
       `,
     });
 
+    expect(res).toMatchSnapshot();
     expect(newsQuery.getAllNews()).resolves.toBe(res);
     expect(newsService.getAllNews()).resolves.toBe(res);
   });
@@ -75,6 +78,7 @@ describe('querries', () => {
         }
       `,
     });
+    expect(res).toMatchSnapshot();
     expect(newsQuery.getAllNews()).resolves.toBe(res);
     expect(newsService.getAllNews()).resolves.toBe(res);
   });
@@ -83,7 +87,7 @@ describe('querries', () => {
     const res = await client.query({
       query: gql`
         query {
-          getNewsById(id: "5ef3970c0ab5dd42436dd5cf") {
+          getNewsById(id: "5f0462f514438544ec76a783") {
             _id
             images {
               primary {
@@ -101,9 +105,9 @@ describe('querries', () => {
 
     expect(res).toMatchSnapshot();
     expect(
-      newsQuery.getNewsById(null, '5ef3970c0ab5dd42436dd5cf'),
+      newsQuery.getNewsById(null, '5f0462f514438544ec76a783'),
     ).resolves.toBe(res);
-    expect(newsService.getNewsById('5ef3970c0ab5dd42436dd5cf')).resolves.toBe(
+    expect(newsService.getNewsById('5f0462f514438544ec76a783')).resolves.toBe(
       res,
     );
   });
@@ -112,7 +116,7 @@ describe('querries', () => {
     const res = await client.query({
       query: gql`
         query {
-          getNewsById(id: "5ef3970c0ab5dd42436dd5cf") {
+          getNewsById(id: "5f0462f514438544ec76a783") {
             text {
               lang
               value
@@ -132,7 +136,7 @@ describe('querries', () => {
     const res = await client.query({
       query: gql`
         query {
-          getNewsById(id: "5ef3970c0ab5dd42436dd5cf") {
+          getNewsById(id: "5f0462f514438544ec76a783") {
             author {
               name {
                 lang
@@ -158,76 +162,14 @@ describe('querries', () => {
     });
 
     expect(res).toMatchSnapshot();
-    expect(newsQuery.getAllNews()).resolves.toBe(res);
-    expect(newsService.getAllNews()).resolves.toBe(res);
+    expect(
+      newsQuery.getNewsById(null, '5f0462f514438544ec76a783'),
+    ).resolves.toBe(res);
+    expect(newsService.getNewsById('5f0462f514438544ec76a783')).resolves.toBe(
+      res,
+    );
   });
-  let newsToDeleteId = '';
-  test('addNews news', async () => {
-    const res = await client.mutate({
-      mutation: gql`
-        mutation {
-          addNews(
-            news: {
-              title: [
-                { lang: "uk", value: "тест" }
-                { lang: "eng", value: "test" }
-              ]
-              text: [
-                { lang: "ua", value: "тест новина" }
-                { lang: "eng", value: "test news" }
-              ]
-              images: {
-                primary: { medium: "sdfsdf4.jpg" }
-                additional: { small: "dfgfdg.jpg" }
-              }
-              video: "3ffefefds.jpg"
-              date: "1212121"
-            }
-          ) {
-            _id
-          }
-        }
-      `,
-    });
 
-    newsToDeleteId = res.data.addNews._id;
-    expect(
-      newsMutation.addNews(null, {
-        title: [
-          { lang: 'uk', value: 'тест' },
-          { lang: 'eng', value: 'test' },
-        ],
-        text: [
-          { lang: 'ua', value: 'тест новина' },
-          { lang: 'eng', value: 'test news' },
-        ],
-        images: {
-          primary: { medium: 'sdfsdf4.jpg' },
-          additional: { small: 'dfgfdg.jpg' },
-        },
-        video: '3ffefefds.jpg',
-        date: '1212121',
-      }),
-    ).resolves.toBe(res);
-    expect(
-      newsService.addNews({
-        title: [
-          { lang: 'uk', value: 'тест' },
-          { lang: 'eng', value: 'test' },
-        ],
-        text: [
-          { lang: 'ua', value: 'тест новина' },
-          { lang: 'eng', value: 'test news' },
-        ],
-        images: {
-          primary: { medium: 'sdfsdf4.jpg' },
-          additional: { small: 'dfgfdg.jpg' },
-        },
-        video: '3ffefefds.jpg',
-        date: '1212121',
-      }),
-    ).resolves.toBe(res);
-  });
   test('delete news', async () => {
     const res = await client
       .mutate({
@@ -240,7 +182,6 @@ describe('querries', () => {
         `,
       })
       .then(res => res);
-    console.log(res.data);
 
     expect(res).toMatchSnapshot();
     expect(newsMutation.deleteNews(null, newsToDeleteId)).resolves.toBe(null);

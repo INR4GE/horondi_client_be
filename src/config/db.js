@@ -2,7 +2,8 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 const azureService = require('../utils/azureService');
 
-const db = azureService.getSecret('MONGO_URL');
+const db = process.env.TEST_MONGO;
+// const db = azureService.getSecret('MONGO_URL');
 
 const connectDB = async () => {
   try {

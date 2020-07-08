@@ -1,13 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`querries delete news 1`] = `
-Object {
-  "data": Object {
-    "deleteNews": null,
-  },
-}
-`;
-
 exports[`querries should receive author, images 1`] = `
 Object {
   "data": Object {
@@ -141,251 +133,6 @@ Object {
           ],
           "primary": Object {
             "medium": "https://images.stylight.net/image/upload/t_web_post_500x667/q_auto,f_auto/post-c27c63a5b58deb0d4535ddd5993e68b2e4d0776d756fdc41c0f7c391.jpg",
-          },
-        },
-      },
-      Object {
-        "author": Object {
-          "image": Object {
-            "small": "ASDASD",
-          },
-          "name": Array [
-            Object {
-              "lang": "ADSAD",
-              "value": "ASDASD",
-            },
-            Object {
-              "lang": "DASDASD",
-              "value": "ADSASD",
-            },
-          ],
-        },
-        "images": Object {
-          "additional": Array [
-            Object {
-              "large": "ASDASDASD",
-              "medium": null,
-              "small": null,
-            },
-          ],
-          "primary": Object {
-            "medium": null,
-          },
-        },
-      },
-      Object {
-        "author": Object {
-          "image": null,
-          "name": Array [],
-        },
-        "images": Object {
-          "additional": Array [
-            Object {
-              "large": null,
-              "medium": null,
-              "small": "dfgfdg.jpg",
-            },
-          ],
-          "primary": Object {
-            "medium": "sdfsdf4.jpg",
-          },
-        },
-      },
-      Object {
-        "author": Object {
-          "image": null,
-          "name": Array [],
-        },
-        "images": Object {
-          "additional": Array [
-            Object {
-              "large": null,
-              "medium": null,
-              "small": "dfgfdg.jpg",
-            },
-          ],
-          "primary": Object {
-            "medium": "sdfsdf4.jpg",
-          },
-        },
-      },
-      Object {
-        "author": Object {
-          "image": null,
-          "name": Array [],
-        },
-        "images": Object {
-          "additional": Array [
-            Object {
-              "large": null,
-              "medium": null,
-              "small": "dfgfdg.jpg",
-            },
-          ],
-          "primary": Object {
-            "medium": "sdfsdf4.jpg",
-          },
-        },
-      },
-      Object {
-        "author": Object {
-          "image": null,
-          "name": Array [],
-        },
-        "images": Object {
-          "additional": Array [
-            Object {
-              "large": null,
-              "medium": null,
-              "small": "dfgfdg.jpg",
-            },
-          ],
-          "primary": Object {
-            "medium": "sdfsdf4.jpg",
-          },
-        },
-      },
-      Object {
-        "author": Object {
-          "image": null,
-          "name": Array [],
-        },
-        "images": Object {
-          "additional": Array [
-            Object {
-              "large": null,
-              "medium": null,
-              "small": "dfgfdg.jpg",
-            },
-          ],
-          "primary": Object {
-            "medium": "sdfsdf4.jpg",
-          },
-        },
-      },
-      Object {
-        "author": Object {
-          "image": null,
-          "name": Array [],
-        },
-        "images": Object {
-          "additional": Array [
-            Object {
-              "large": null,
-              "medium": null,
-              "small": "dfgfdg.jpg",
-            },
-          ],
-          "primary": Object {
-            "medium": "sdfsdf4.jpg",
-          },
-        },
-      },
-      Object {
-        "author": Object {
-          "image": null,
-          "name": Array [],
-        },
-        "images": Object {
-          "additional": Array [
-            Object {
-              "large": null,
-              "medium": null,
-              "small": "dfgfdg.jpg",
-            },
-          ],
-          "primary": Object {
-            "medium": "sdfsdf4.jpg",
-          },
-        },
-      },
-      Object {
-        "author": Object {
-          "image": null,
-          "name": Array [],
-        },
-        "images": Object {
-          "additional": Array [
-            Object {
-              "large": null,
-              "medium": null,
-              "small": "dfgfdg.jpg",
-            },
-          ],
-          "primary": Object {
-            "medium": "sdfsdf4.jpg",
-          },
-        },
-      },
-      Object {
-        "author": Object {
-          "image": null,
-          "name": Array [],
-        },
-        "images": Object {
-          "additional": Array [
-            Object {
-              "large": null,
-              "medium": null,
-              "small": "dfgfdg.jpg",
-            },
-          ],
-          "primary": Object {
-            "medium": "sdfsdf4.jpg",
-          },
-        },
-      },
-      Object {
-        "author": Object {
-          "image": null,
-          "name": Array [],
-        },
-        "images": Object {
-          "additional": Array [
-            Object {
-              "large": null,
-              "medium": null,
-              "small": "dfgfdg.jpg",
-            },
-          ],
-          "primary": Object {
-            "medium": "sdfsdf4.jpg",
-          },
-        },
-      },
-      Object {
-        "author": Object {
-          "image": null,
-          "name": Array [],
-        },
-        "images": Object {
-          "additional": Array [
-            Object {
-              "large": null,
-              "medium": null,
-              "small": "dfgfdg.jpg",
-            },
-          ],
-          "primary": Object {
-            "medium": "sdfsdf4.jpg",
-          },
-        },
-      },
-      Object {
-        "author": Object {
-          "image": null,
-          "name": Array [],
-        },
-        "images": Object {
-          "additional": Array [
-            Object {
-              "large": null,
-              "medium": null,
-              "small": "dfgfdg.jpg",
-            },
-          ],
-          "primary": Object {
-            "medium": "sdfsdf4.jpg",
           },
         },
       },
@@ -1356,7 +1103,7 @@ Object {
   "data": Object {
     "getAllNews": Array [
       Object {
-        "_id": "5ef3970c0ab5dd42436dd5cf",
+        "_id": "5f0462f514438544ec76a783",
         "images": Object {
           "additional": Array [
             Object {
@@ -1378,7 +1125,7 @@ Object {
         },
       },
       Object {
-        "_id": "5ef3970c0ab5dd42436dd5d0",
+        "_id": "5f0462f514438544ec76a784",
         "images": Object {
           "additional": Array [
             Object {
@@ -1416,7 +1163,7 @@ Object {
         },
       },
       Object {
-        "_id": "5ef3970c0ab5dd42436dd5d1",
+        "_id": "5f0462f514438544ec76a785",
         "images": Object {
           "additional": Array [
             Object {
@@ -1434,21 +1181,7 @@ Object {
         },
       },
       Object {
-        "_id": "5effa0a2943a4d176cf90619",
-        "images": Object {
-          "additional": Array [
-            Object {
-              "medium": null,
-              "small": null,
-            },
-          ],
-          "primary": Object {
-            "medium": null,
-          },
-        },
-      },
-      Object {
-        "_id": "5f032cd886bb8b19c4a809a0",
+        "_id": "5f0564c49231b13644ffb5d8",
         "images": Object {
           "additional": Array [
             Object {
@@ -1462,7 +1195,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032d0986bb8b19c4a80a41",
+        "_id": "5f056553a0762f139069a336",
         "images": Object {
           "additional": Array [
             Object {
@@ -1476,7 +1209,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032d1fd91f8e2c48cefd39",
+        "_id": "5f056919f502a33834415c5b",
         "images": Object {
           "additional": Array [
             Object {
@@ -1490,7 +1223,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032d24d91f8e2c48cefdfe",
+        "_id": "5f056f3f2ea77c1aac8dbd7d",
         "images": Object {
           "additional": Array [
             Object {
@@ -1504,7 +1237,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032d3c2a297f3074326b1e",
+        "_id": "5f056fb88e602930607be56f",
         "images": Object {
           "additional": Array [
             Object {
@@ -1518,7 +1251,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032d42a65ade35cc60e949",
+        "_id": "5f056fbe8e602930607be63d",
         "images": Object {
           "additional": Array [
             Object {
@@ -1532,7 +1265,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032d4bccdb6429b4603cc0",
+        "_id": "5f056fc48e602930607be645",
         "images": Object {
           "additional": Array [
             Object {
@@ -1546,7 +1279,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032d50cfb6753074bad489",
+        "_id": "5f056fc88e602930607be720",
         "images": Object {
           "additional": Array [
             Object {
@@ -1560,7 +1293,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032d55cfb6753074bad5a8",
+        "_id": "5f057039ba925a3a0c5d2636",
         "images": Object {
           "additional": Array [
             Object {
@@ -1574,7 +1307,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032d740a31d93c78994adf",
+        "_id": "5f05704d6287d43a083c8272",
         "images": Object {
           "additional": Array [
             Object {
@@ -1588,7 +1321,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032d7e0a31d93c78994c22",
+        "_id": "5f05706c25fa3d26002cc33c",
         "images": Object {
           "additional": Array [
             Object {
@@ -1602,7 +1335,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032dce0a31d93c78994d77",
+        "_id": "5f05706f25fa3d26002cc470",
         "images": Object {
           "additional": Array [
             Object {
@@ -1616,7 +1349,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032de7bf325d35a81b66f5",
+        "_id": "5f05707c5869510d90be09db",
         "images": Object {
           "additional": Array [
             Object {
@@ -1630,7 +1363,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032de9bf325d35a81b686e",
+        "_id": "5f057085a23481321c43ebc7",
         "images": Object {
           "additional": Array [
             Object {
@@ -1644,7 +1377,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032e0e0bae542e78f6aa98",
+        "_id": "5f057091a23481321c43ed31",
         "images": Object {
           "additional": Array [
             Object {
@@ -1658,7 +1391,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032e110bae542e78f6ac35",
+        "_id": "5f057091a23481321c43edcf",
         "images": Object {
           "additional": Array [
             Object {
@@ -1672,7 +1405,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032e264428e731a4e89310",
+        "_id": "5f0570a5a23481321c43f041",
         "images": Object {
           "additional": Array [
             Object {
@@ -1686,7 +1419,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032e294428e731a4e894fd",
+        "_id": "5f0570a6a23481321c43f1e1",
         "images": Object {
           "additional": Array [
             Object {
@@ -1700,7 +1433,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032e440f91374144787d67",
+        "_id": "5f0570bba23481321c43f393",
         "images": Object {
           "additional": Array [
             Object {
@@ -1714,7 +1447,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032e4e9e54e53e1067dfc6",
+        "_id": "5f0570bca23481321c43f422",
         "images": Object {
           "additional": Array [
             Object {
@@ -1728,7 +1461,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032e67f3d74c35c456ca2c",
+        "_id": "5f0570bea23481321c43f733",
         "images": Object {
           "additional": Array [
             Object {
@@ -1742,7 +1475,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032e69f3d74c35c456cc35",
+        "_id": "5f0570fd3182bd32ac308f4c",
         "images": Object {
           "additional": Array [
             Object {
@@ -1756,7 +1489,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032e9a11ac9f1d0c1dc211",
+        "_id": "5f0571013182bd32ac30921a",
         "images": Object {
           "additional": Array [
             Object {
@@ -1770,7 +1503,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032ea411ac9f1d0c1dc43e",
+        "_id": "5f0571153182bd32ac309346",
         "images": Object {
           "additional": Array [
             Object {
@@ -1784,7 +1517,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032eaeb8fc923d188754c3",
+        "_id": "5f0571163182bd32ac30956a",
         "images": Object {
           "additional": Array [
             Object {
@@ -1798,7 +1531,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032eb0b8fc923d18875714",
+        "_id": "5f0571a03182bd32ac3097a0",
         "images": Object {
           "additional": Array [
             Object {
@@ -1812,7 +1545,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032ebe67185912d4ceb167",
+        "_id": "5f0571d7bce18020b0457c22",
         "images": Object {
           "additional": Array [
             Object {
@@ -1826,7 +1559,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032ec24508ad15a0fceb29",
+        "_id": "5f0572cabce18020b0457e76",
         "images": Object {
           "additional": Array [
             Object {
@@ -1840,7 +1573,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032eca1bf733312862667d",
+        "_id": "5f05732ae6f97519c851d88f",
         "images": Object {
           "additional": Array [
             Object {
@@ -1854,7 +1587,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032eda1bf7333128626916",
+        "_id": "5f05732ae6f97519c851d95a",
         "images": Object {
           "additional": Array [
             Object {
@@ -1868,7 +1601,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032ee61bf7333128626bc1",
+        "_id": "5f057331ba6a653a449c2c31",
         "images": Object {
           "additional": Array [
             Object {
@@ -1882,7 +1615,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032f31a4a11e1af4e00cef",
+        "_id": "5f057331ba6a653a449c2d08",
         "images": Object {
           "additional": Array [
             Object {
@@ -1896,7 +1629,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032f36fe9a8a075423f59b",
+        "_id": "5f05733e86166f39a0660f7c",
         "images": Object {
           "additional": Array [
             Object {
@@ -1910,7 +1643,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032f38fe9a8a075423f82e",
+        "_id": "5f05734626cc7e380811b03b",
         "images": Object {
           "additional": Array [
             Object {
@@ -1924,7 +1657,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032f545e76264060067ad0",
+        "_id": "5f05734626cc7e380811b124",
         "images": Object {
           "additional": Array [
             Object {
@@ -1938,7 +1671,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032f6844cdfe41e8ec688a",
+        "_id": "5f05746d5b14693988625b90",
         "images": Object {
           "additional": Array [
             Object {
@@ -1952,7 +1685,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032f7f44cdfe41e8ec6ba1",
+        "_id": "5f05746d5b14693988625c85",
         "images": Object {
           "additional": Array [
             Object {
@@ -1966,7 +1699,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032faa44cdfe41e8ec6eca",
+        "_id": "5f0574790b37f026fc4b13cb",
         "images": Object {
           "additional": Array [
             Object {
@@ -1980,7 +1713,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032fb144cdfe41e8ec7205",
+        "_id": "5f05748040520b3ac8fdba14",
         "images": Object {
           "additional": Array [
             Object {
@@ -1994,7 +1727,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032fba44cdfe41e8ec7552",
+        "_id": "5f05748040520b3ac8fdbb1b",
         "images": Object {
           "additional": Array [
             Object {
@@ -2008,7 +1741,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032fcffccf574124678946",
+        "_id": "5f057491af44033ac4cf62a5",
         "images": Object {
           "additional": Array [
             Object {
@@ -2022,7 +1755,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032fd0fccf574124678cb7",
+        "_id": "5f057492af44033ac4cf62ad",
         "images": Object {
           "additional": Array [
             Object {
@@ -2036,7 +1769,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032fe2228afc302c83b56f",
+        "_id": "5f05749aba62482bfca9cb1a",
         "images": Object {
           "additional": Array [
             Object {
@@ -2050,7 +1783,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032fe4228afc302c83b904",
+        "_id": "5f05749aba62482bfca9cc39",
         "images": Object {
           "additional": Array [
             Object {
@@ -2064,7 +1797,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032ff2228afc302c83bcab",
+        "_id": "5f0574a2cd44e93bb4f8436c",
         "images": Object {
           "additional": Array [
             Object {
@@ -2078,7 +1811,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f032ffb228afc302c83c064",
+        "_id": "5f0574a2cd44e93bb4f84497",
         "images": Object {
           "additional": Array [
             Object {
@@ -2092,7 +1825,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f03300f92744e28c46404f2",
+        "_id": "5f0574b04afd720c8822b724",
         "images": Object {
           "additional": Array [
             Object {
@@ -2106,7 +1839,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f03301392744e28c46408cf",
+        "_id": "5f057ed8116c7d0bcc2e49df",
         "images": Object {
           "additional": Array [
             Object {
@@ -2120,7 +1853,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f03301d92744e28c4640c52",
+        "_id": "5f057ee4116c7d0bcc2e4dad",
         "images": Object {
           "additional": Array [
             Object {
@@ -2134,7 +1867,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f0330260d2c104250740934",
+        "_id": "5f057ee4116c7d0bcc2e4ef0",
         "images": Object {
           "additional": Array [
             Object {
@@ -2148,7 +1881,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f03302a98d5183bf057582d",
+        "_id": "5f057ef8116c7d0bcc2e558b",
         "images": Object {
           "additional": Array [
             Object {
@@ -2162,7 +1895,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f03303098d5183bf0575c52",
+        "_id": "5f057efc116c7d0bcc2e5995",
         "images": Object {
           "additional": Array [
             Object {
@@ -2176,119 +1909,7 @@ Object {
         },
       },
       Object {
-        "_id": "5f03303798d5183bf0576089",
-        "images": Object {
-          "additional": Array [
-            Object {
-              "medium": null,
-              "small": "dfgfdg.jpg",
-            },
-          ],
-          "primary": Object {
-            "medium": "sdfsdf4.jpg",
-          },
-        },
-      },
-      Object {
-        "_id": "5f03303f8c6b4d415cd68dd7",
-        "images": Object {
-          "additional": Array [
-            Object {
-              "medium": null,
-              "small": "dfgfdg.jpg",
-            },
-          ],
-          "primary": Object {
-            "medium": "sdfsdf4.jpg",
-          },
-        },
-      },
-      Object {
-        "_id": "5f0330460b1aed428ccdc3a7",
-        "images": Object {
-          "additional": Array [
-            Object {
-              "medium": null,
-              "small": "dfgfdg.jpg",
-            },
-          ],
-          "primary": Object {
-            "medium": "sdfsdf4.jpg",
-          },
-        },
-      },
-      Object {
-        "_id": "5f0330460b1aed428ccdc4ba",
-        "images": Object {
-          "additional": Array [
-            Object {
-              "medium": null,
-              "small": "dfgfdg.jpg",
-            },
-          ],
-          "primary": Object {
-            "medium": "sdfsdf4.jpg",
-          },
-        },
-      },
-      Object {
-        "_id": "5f03304d0b1aed428ccdc939",
-        "images": Object {
-          "additional": Array [
-            Object {
-              "medium": null,
-              "small": "dfgfdg.jpg",
-            },
-          ],
-          "primary": Object {
-            "medium": "sdfsdf4.jpg",
-          },
-        },
-      },
-      Object {
-        "_id": "5f03305a0b1aed428ccdcdca",
-        "images": Object {
-          "additional": Array [
-            Object {
-              "medium": null,
-              "small": "dfgfdg.jpg",
-            },
-          ],
-          "primary": Object {
-            "medium": "sdfsdf4.jpg",
-          },
-        },
-      },
-      Object {
-        "_id": "5f0330660b1aed428ccdd26d",
-        "images": Object {
-          "additional": Array [
-            Object {
-              "medium": null,
-              "small": "dfgfdg.jpg",
-            },
-          ],
-          "primary": Object {
-            "medium": "sdfsdf4.jpg",
-          },
-        },
-      },
-      Object {
-        "_id": "5f03306e14aab93ad8919016",
-        "images": Object {
-          "additional": Array [
-            Object {
-              "medium": null,
-              "small": "dfgfdg.jpg",
-            },
-          ],
-          "primary": Object {
-            "medium": "sdfsdf4.jpg",
-          },
-        },
-      },
-      Object {
-        "_id": "5f033076218861114462110a",
+        "_id": "5f057fd0116c7d0bcc2e5dab",
         "images": Object {
           "additional": Array [
             Object {
@@ -2362,7 +1983,7 @@ exports[`querries should receive one news id,title 1`] = `
 Object {
   "data": Object {
     "getNewsById": Object {
-      "_id": "5ef3970c0ab5dd42436dd5cf",
+      "_id": "5f0462f514438544ec76a783",
       "images": Object {
         "additional": Array [
           Object {
@@ -2398,15 +2019,1029 @@ Object {
       "text": Array [
         Object {
           "lang": "uk",
-          "value": "<p>Ми виділили для вас топ найгарячіших трендів на цей аксесуар.</p><p>Сучасні модниці не мислять своїх образів без модної сумки, змінюючи практично кожен день одну модель на іншу, демонструючи щоразу свіжі образи з новинками сумок.</p><p>Як йдеться сумок багато не буває, і це не даремно. Адже у кожної модної сумки є своє призначення, коли її краще включити в образ, а коли краще залишити вдома на полиці.</p><p>Дизайнери весь час вносять нові корективи в моделі сумок, що і сталося в сезоні осінь-зима 2019-2020. Модні сумки в прийдешньому сезоні будуть більш гармонійними та делікатними, без зайвого епатажу і химерності.</p><p>Серед новинок сезону осінь-зима, виявляться сумки в незвичайних рішеннях. Це хутряні та сумки плюшеві, що бездоганно увіллються в осінньо-зимові тандеми жіночих образів на холодний сезон.</p><p>Продовжиться тренд на різні форми сумок, але ось круглі моделі сумок осінь-зима, відійдуть на другий план. На піку популярності будуть трикутні сумки, подовжені сумки, сумки квадратної і прямокутної форми, у вигляді піраміди та циліндра, а також інших неймовірних форм.</p><p>Розглядаючи фото звіти з останніх показів осінь-зима на Тижнях моди, варто виділити головні тренди сумок 2019-2020 роки:</p><ul><li>хутряні та сумки плюшеві;</li><li>сумки в стилі «тотал лук» або тон-в-тон;</li><li>об’єднані сумки;</li><li>сумки з ефектним декором і шипами;</li><li>стьобані сумки капітоні;</li><li>сумки на широкому ремінці;</li><li>сумки з квітковими деталями та аплікаціями;</li><li>хиже забарвлення на сумках осінь-зима;</li><li>яскраві неонові та кислотні кольори сумок осінь-зима;</li><li>сумка сетчел на осінь-зиму;</li><li>сумки з логотипами;</li><li>геометричні сумки.</li></ul><p>Це не повний перелік трендів, що будуть головувати в області новомодних сумок осінь-зима 2019-2020. Більше ідей ви зможете відшукати на фото колекції, що ми підготували.</p><p>Хотілося б ще акцентувати на модне рішення, що запропонували дизайнери — це комплект сумок. Що це означає? Ви зможете підібрати велику сумку, як наприклад, шоппер, доповнивши її маленькою сумкою або так званою мікро-сумкою.</p><p>В такому чудовому тандемі кожна сумка на осінь-зиму виконуватиме свою функцію і призначення, як це і годиться, що дуже зручно. Такий новий тренд з модними сумочками осінь-зима модниці зможуть по достоїнству оцінити вже зовсім скоро.</p><p>Ми підготували для вас зручний фото рейтинг найбільш модних сумок на майбутній сезон, розглядаючи який ви зможете легко зорієнтуватися, які сумки будуть трендовими і бажаними найближчим часом.</p>",
+          "value": "<p>Ми виділили для вас топ найгарячіших трендів на цей аксесуар.</p>
+<p>Сучасні модниці не мислять своїх образів без модної сумки, змінюючи практично кожен день одну модель на іншу, демонструючи щоразу свіжі образи з новинками сумок.</p>
+<p>Як йдеться сумок багато не буває, і це не даремно. Адже у кожної модної сумки є своє призначення, коли її краще включити в образ, а коли краще залишити вдома на полиці.</p>
+<p>Дизайнери весь час вносять нові корективи в моделі сумок, що і сталося в сезоні осінь-зима 2019-2020. Модні сумки в прийдешньому сезоні будуть більш гармонійними та делікатними, без зайвого епатажу і химерності.</p>
+<p>Серед новинок сезону осінь-зима, виявляться сумки в незвичайних рішеннях. Це хутряні та сумки плюшеві, що бездоганно увіллються в осінньо-зимові тандеми жіночих образів на холодний сезон.</p>
+<p>Продовжиться тренд на різні форми сумок, але ось круглі моделі сумок осінь-зима, відійдуть на другий план. На піку популярності будуть трикутні сумки, подовжені сумки, сумки квадратної і прямокутної форми, у вигляді піраміди та циліндра, а також інших неймовірних форм.</p>
+<p>Розглядаючи фото звіти з останніх показів осінь-зима на Тижнях моди, варто виділити головні тренди сумок 2019-2020 роки:</p>
+<ul>
+<li>хутряні та сумки плюшеві;</li>
+<li>сумки в стилі «тотал лук» або тон-в-тон;</li>
+<li>об’єднані сумки;</li>
+<li>сумки з ефектним декором і шипами;</li>
+<li>стьобані сумки капітоні;</li>
+<li>сумки на широкому ремінці;</li>
+<li>сумки з квітковими деталями та аплікаціями;</li>
+<li>хиже забарвлення на сумках осінь-зима;</li>
+<li>яскраві неонові та кислотні кольори сумок осінь-зима;</li>
+<li>сумка сетчел на осінь-зиму;</li>
+<li>сумки з логотипами;</li>
+<li>геометричні сумки.</li>
+</ul>
+<p>Це не повний перелік трендів, що будуть головувати в області новомодних сумок осінь-зима 2019-2020. Більше ідей ви зможете відшукати на фото колекції, що ми підготували.</p>
+<p>Хотілося б ще акцентувати на модне рішення, що запропонували дизайнери — це комплект сумок. Що це означає? Ви зможете підібрати велику сумку, як наприклад, шоппер, доповнивши її маленькою сумкою або так званою мікро-сумкою.</p>
+<p>В такому чудовому тандемі кожна сумка на осінь-зиму виконуватиме свою функцію і призначення, як це і годиться, що дуже зручно. Такий новий тренд з модними сумочками осінь-зима модниці зможуть по достоїнству оцінити вже зовсім скоро.</p>
+<p>Ми підготували для вас зручний фото рейтинг найбільш модних сумок на майбутній сезон, розглядаючи який ви зможете легко зорієнтуватися, які сумки будуть трендовими і бажаними найближчим часом.</p>
+<p><img src='https://ukr.media/static/ba/aimg/3/9/3/393626_3.jpg' alt=\\"Жінка з чорною сумкою на поясі на фоні середземноморської вулички\\"></p>
+<p><img src='https://ukr.media/static/ba/aimg/3/9/3/393626_4.jpg' alt=\\"Жінка з сумкою через плече із зображеннями фракталів у теплих тонах\\"></p>
+<p><img src='https://ukr.media/static/ba/aimg/3/9/3/393626_5.jpg' alt=\\"Жінка в рожевому пальто з насичено-рожевою прямокутною сумкою під пахвою\\"></p>",
         },
         Object {
           "lang": "en",
-          "value": "<p>We have selected for you the top hottest trends for this accessory.</p><p>Modern fashionistas do not think of their images without a fashionable bag, changing almost every day one model to another, showing each time fresh images with new bags.</p><p>As they say, there are not many bags, and this is not in vain. After all, every fashionable bag has its purpose, when it is better to include it in the image, and when it is better to leave it on the shelf at home.</p><p>Designers are constantly making new adjustments to the model of bags, which happened in the autumn-winter season 2019-2020. Fashionable bags in the coming season will be more harmonious and delicate, without unnecessary outrage and whimsy.</p><p>Among the novelties of the autumn-winter season, bags will be found in unusual solutions. These are fur and plush bags that will perfectly fit into the autumn-winter tandems of women&apos;s images for the cold season.</p><p>The trend for different forms of bags will continue, but the round models of autumn-winter bags will recede into the background. At the peak of popularity will be triangular bags, elongated bags, bags of square and rectangular shape, in the form of a pyramid and a cylinder, as well as other incredible shapes.</p><p>Considering the photo reports from the latest shows of autumn-winter at the Fashion Weeks, it is worth highlighting the main trends of handbags 2019-2020:</p><ul><li>fur and plush bags;</li><li>bags in the style of \\"total bow\\" or tone-on-tone;</li><li>combined bags;</li><li>bags with spectacular decor and spikes;</li><li>quilted captain&apos;s bags;</li><li>bags on a wide strap;</li><li>bags with floral details and applications;</li><li>predatory coloring on bags autumn-winter;</li><li>bright neon and acid colors of autumn-winter bags;</li><li>satchel bag for fall-winter;</li><li>bags with logos;</li><li>geometric bags.</li></ul><p>This is not a complete list of trends that will lead in the field of new-fangled bags fall-winter 2019-2020. You can find more ideas in the photo of the collection we have prepared.</p><p>I would like to emphasize the fashionable solution offered by the designers - a set of bags. What does it mean? You can choose a large bag, such as a shopper, complementing it with a small bag or so-called micro-bag.</p><p>In such a wonderful tandem, each bag for autumn-winter will perform its function and purpose, as it should, which is very convenient. This new trend with fashionable handbags fall-winter fashionistas will be able to appreciate very soon.</p><p>We have prepared for you a convenient photo rating of the most fashionable bags for the upcoming season, considering which you can easily find out which bags will be trendy and desirable in the near future.</p>",
+          "value": "<p>We have selected for you the top hottest trends for this accessory.</p>
+<p>Modern fashionistas do not think of their images without a fashionable bag, changing almost every day one model to another, showing each time fresh images with new bags.</p>
+<p>As they say, there are not many bags, and this is not in vain. After all, every fashionable bag has its purpose, when it is better to include it in the image, and when it is better to leave it on the shelf at home.</p>
+<p>Designers are constantly making new adjustments to the model of bags, which happened in the autumn-winter season 2019-2020. Fashionable bags in the coming season will be more harmonious and delicate, without unnecessary outrage and whimsy.</p>
+<p>Among the novelties of the autumn-winter season, bags will be found in unusual solutions. These are fur and plush bags that will perfectly fit into the autumn-winter tandems of women&apos;s images for the cold season.</p>
+<p>The trend for different forms of bags will continue, but the round models of autumn-winter bags will recede into the background. At the peak of popularity will be triangular bags, elongated bags, bags of square and rectangular shape, in the form of a pyramid and a cylinder, as well as other incredible shapes.</p>
+<p>Considering the photo reports from the latest shows of autumn-winter at the Fashion Weeks, it is worth highlighting the main trends of handbags 2019-2020:</p><ul>
+<li>fur and plush bags;</li>
+<li>bags in the style of \\"total bow\\" or tone-on-tone;</li>
+<li>combined bags;</li>
+<li>bags with spectacular decor and spikes;</li>
+<li>quilted captain&apos;s bags;</li>
+<li>bags on a wide strap;</li>
+<li>bags with floral details and applications;</li>
+<li>predatory coloring on bags autumn-winter;</li>
+<li>bright neon and acid colors of autumn-winter bags;</li>
+<li>satchel bag for fall-winter;</li>
+<li>bags with logos;</li>
+<li>geometric bags.</li>
+</ul><p>This is not a complete list of trends that will lead in the field of new-fangled bags fall-winter 2019-2020. You can find more ideas in the photo of the collection we have prepared.</p>
+<p>I would like to emphasize the fashionable solution offered by the designers - a set of bags. What does it mean? You can choose a large bag, such as a shopper, complementing it with a small bag or so-called micro-bag.</p>
+<p>In such a wonderful tandem, each bag for autumn-winter will perform its function and purpose, as it should, which is very convenient. This new trend with fashionable handbags fall-winter fashionistas will be able to appreciate very soon.</p>
+<p>We have prepared for you a convenient photo rating of the most fashionable bags for the upcoming season, considering which you can easily find out which bags will be trendy and desirable in the near future.</p>
+<p><img src='https://ukr.media/static/ba/aimg/3/9/3/393626_3.jpg' alt=\\"Woman with a black bag on her belt with a Mediterranean street on the background\\"></p>
+<p><img src='https://ukr.media/static/ba/aimg/3/9/3/393626_4.jpg' alt=\\"Woman with a bag on her shoulder featuring fractals in warm hues\\"></p>
+<p><img src='https://ukr.media/static/ba/aimg/3/9/3/393626_5.jpg' alt=\\"Woman wearing pink coat with a saturated pink rectangular bag under her arm\\"></p>",
         },
       ],
       "video": "https://www.youtube.com/embed/maP6Daq83fM",
     },
+  },
+  "loading": false,
+  "networkStatus": 7,
+  "stale": false,
+}
+`;
+
+exports[`querries should receive text, video, date 1`] = `
+Object {
+  "data": Object {
+    "getAllNews": Array [
+      Object {
+        "date": "1565824238000",
+        "text": Array [
+          Object {
+            "lang": "uk",
+            "value": "<p>Ми виділили для вас топ найгарячіших трендів на цей аксесуар.</p>
+<p>Сучасні модниці не мислять своїх образів без модної сумки, змінюючи практично кожен день одну модель на іншу, демонструючи щоразу свіжі образи з новинками сумок.</p>
+<p>Як йдеться сумок багато не буває, і це не даремно. Адже у кожної модної сумки є своє призначення, коли її краще включити в образ, а коли краще залишити вдома на полиці.</p>
+<p>Дизайнери весь час вносять нові корективи в моделі сумок, що і сталося в сезоні осінь-зима 2019-2020. Модні сумки в прийдешньому сезоні будуть більш гармонійними та делікатними, без зайвого епатажу і химерності.</p>
+<p>Серед новинок сезону осінь-зима, виявляться сумки в незвичайних рішеннях. Це хутряні та сумки плюшеві, що бездоганно увіллються в осінньо-зимові тандеми жіночих образів на холодний сезон.</p>
+<p>Продовжиться тренд на різні форми сумок, але ось круглі моделі сумок осінь-зима, відійдуть на другий план. На піку популярності будуть трикутні сумки, подовжені сумки, сумки квадратної і прямокутної форми, у вигляді піраміди та циліндра, а також інших неймовірних форм.</p>
+<p>Розглядаючи фото звіти з останніх показів осінь-зима на Тижнях моди, варто виділити головні тренди сумок 2019-2020 роки:</p>
+<ul>
+<li>хутряні та сумки плюшеві;</li>
+<li>сумки в стилі «тотал лук» або тон-в-тон;</li>
+<li>об’єднані сумки;</li>
+<li>сумки з ефектним декором і шипами;</li>
+<li>стьобані сумки капітоні;</li>
+<li>сумки на широкому ремінці;</li>
+<li>сумки з квітковими деталями та аплікаціями;</li>
+<li>хиже забарвлення на сумках осінь-зима;</li>
+<li>яскраві неонові та кислотні кольори сумок осінь-зима;</li>
+<li>сумка сетчел на осінь-зиму;</li>
+<li>сумки з логотипами;</li>
+<li>геометричні сумки.</li>
+</ul>
+<p>Це не повний перелік трендів, що будуть головувати в області новомодних сумок осінь-зима 2019-2020. Більше ідей ви зможете відшукати на фото колекції, що ми підготували.</p>
+<p>Хотілося б ще акцентувати на модне рішення, що запропонували дизайнери — це комплект сумок. Що це означає? Ви зможете підібрати велику сумку, як наприклад, шоппер, доповнивши її маленькою сумкою або так званою мікро-сумкою.</p>
+<p>В такому чудовому тандемі кожна сумка на осінь-зиму виконуватиме свою функцію і призначення, як це і годиться, що дуже зручно. Такий новий тренд з модними сумочками осінь-зима модниці зможуть по достоїнству оцінити вже зовсім скоро.</p>
+<p>Ми підготували для вас зручний фото рейтинг найбільш модних сумок на майбутній сезон, розглядаючи який ви зможете легко зорієнтуватися, які сумки будуть трендовими і бажаними найближчим часом.</p>
+<p><img src='https://ukr.media/static/ba/aimg/3/9/3/393626_3.jpg' alt=\\"Жінка з чорною сумкою на поясі на фоні середземноморської вулички\\"></p>
+<p><img src='https://ukr.media/static/ba/aimg/3/9/3/393626_4.jpg' alt=\\"Жінка з сумкою через плече із зображеннями фракталів у теплих тонах\\"></p>
+<p><img src='https://ukr.media/static/ba/aimg/3/9/3/393626_5.jpg' alt=\\"Жінка в рожевому пальто з насичено-рожевою прямокутною сумкою під пахвою\\"></p>",
+          },
+          Object {
+            "lang": "en",
+            "value": "<p>We have selected for you the top hottest trends for this accessory.</p>
+<p>Modern fashionistas do not think of their images without a fashionable bag, changing almost every day one model to another, showing each time fresh images with new bags.</p>
+<p>As they say, there are not many bags, and this is not in vain. After all, every fashionable bag has its purpose, when it is better to include it in the image, and when it is better to leave it on the shelf at home.</p>
+<p>Designers are constantly making new adjustments to the model of bags, which happened in the autumn-winter season 2019-2020. Fashionable bags in the coming season will be more harmonious and delicate, without unnecessary outrage and whimsy.</p>
+<p>Among the novelties of the autumn-winter season, bags will be found in unusual solutions. These are fur and plush bags that will perfectly fit into the autumn-winter tandems of women&apos;s images for the cold season.</p>
+<p>The trend for different forms of bags will continue, but the round models of autumn-winter bags will recede into the background. At the peak of popularity will be triangular bags, elongated bags, bags of square and rectangular shape, in the form of a pyramid and a cylinder, as well as other incredible shapes.</p>
+<p>Considering the photo reports from the latest shows of autumn-winter at the Fashion Weeks, it is worth highlighting the main trends of handbags 2019-2020:</p><ul>
+<li>fur and plush bags;</li>
+<li>bags in the style of \\"total bow\\" or tone-on-tone;</li>
+<li>combined bags;</li>
+<li>bags with spectacular decor and spikes;</li>
+<li>quilted captain&apos;s bags;</li>
+<li>bags on a wide strap;</li>
+<li>bags with floral details and applications;</li>
+<li>predatory coloring on bags autumn-winter;</li>
+<li>bright neon and acid colors of autumn-winter bags;</li>
+<li>satchel bag for fall-winter;</li>
+<li>bags with logos;</li>
+<li>geometric bags.</li>
+</ul><p>This is not a complete list of trends that will lead in the field of new-fangled bags fall-winter 2019-2020. You can find more ideas in the photo of the collection we have prepared.</p>
+<p>I would like to emphasize the fashionable solution offered by the designers - a set of bags. What does it mean? You can choose a large bag, such as a shopper, complementing it with a small bag or so-called micro-bag.</p>
+<p>In such a wonderful tandem, each bag for autumn-winter will perform its function and purpose, as it should, which is very convenient. This new trend with fashionable handbags fall-winter fashionistas will be able to appreciate very soon.</p>
+<p>We have prepared for you a convenient photo rating of the most fashionable bags for the upcoming season, considering which you can easily find out which bags will be trendy and desirable in the near future.</p>
+<p><img src='https://ukr.media/static/ba/aimg/3/9/3/393626_3.jpg' alt=\\"Woman with a black bag on her belt with a Mediterranean street on the background\\"></p>
+<p><img src='https://ukr.media/static/ba/aimg/3/9/3/393626_4.jpg' alt=\\"Woman with a bag on her shoulder featuring fractals in warm hues\\"></p>
+<p><img src='https://ukr.media/static/ba/aimg/3/9/3/393626_5.jpg' alt=\\"Woman wearing pink coat with a saturated pink rectangular bag under her arm\\"></p>",
+          },
+        ],
+        "video": "https://www.youtube.com/embed/maP6Daq83fM",
+      },
+      Object {
+        "date": "1591019702000",
+        "text": Array [
+          Object {
+            "lang": "uk",
+            "value": "<p>Зараз сумка - це більше, ніж просто аксесуар. У 2020 році вона стала головною деталлю трендового образу. Дизайнери презентували у своїх колекціях безліч універсальних та яскравих моделей, які з легкістю можна інтерпретувати у повсякденні луки. До класичних моделей додали більше кольору, фасону та матеріалів.</p>
+<h3>Солом’яні сумки</h3>
+<p><img src='https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/solomani_5edf8e4b209ed.jpg' alt=\\"Жінка з cолом’яною сумкою в руці\\"></p>
+<p>Уже кілька років поспіль солом’яні сумки залишаються на найвищих позиціях. Вони підходять для курорту та прогулянки містом. Також їх можна одягати під класичний костюм чи вишукану сукню. Дизайнерка Соломія Небожук розповідає, що солом’яні сумки зроблять ваш образ розслабленим та додадуть до нього нотки паризького стилю. Ви можете комбінувати їх з джинсами, білою сорочкою та лоферами. Солом’яна сумка-шопер гарно пасуватиме і до білих кюлотів та шовкової сорочки. Така сумка - це база літнього гардеробу 2020, своєрідний плацдарм для модних експериментів. Дизайнери щороку удосконалюють модель класичної солом’яної сумки. Головні трендові позиції серед солом’яних сумок зайняли: сумка-шоппер, мінодьєр, сумка-кросбаді, top handle.</p>
+<h3>Об’ємний та м’який клатч</h3>
+<p><img src='https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/11_5edf8f3209c11.jpg' alt=\\"Жінка зі світлою сумкою клатч у руці\\"></p>
+<p>У сезоні весна-літо 2020 абсолютну першість серед трендових сумок зайняли клатчі. М’які, не структуровані та великі клатчі увійшли у базовий гардероб усіх модниць. Засновником та королем цього тренду став італійський бренд Bottega Veneta, який презентував культовий клатч Pouch. Відтоді й інші бренди почали активно пропонувати у своїх колекціях такі сумки. Стилістка Соломія Небожук пояснює, що клатч стане універсальним елементом вашого гардеробу. Його можна поєднати з повсякденними образами, вечірніми чи коктейльними сукнями. Важливо пам’ятати, що його не варто комбінувати з дуже розслабленими речами, оскільки ваш образ може перетворитися на занадто домашній. Краще надавати перевагу структурованим джинсам, жакетам чи сорочкам. Також сильну розслабленість образу можна компенсувати головними уборами та взуттям.</p>
+<h3>Сумки з масивними ланцюжками</h3>
+<p><img src='https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/cepki_5edf8fffc7403.jpg' alt=\\"Жінка з коричневою сумкою на масивному ланцюжку через плече\\"></p>
+<p>Ланцюжки всюди - основне кредо трендів літа 2020 року. Дизайнери додають масивні ланцюжки до всіх моделей сумок. Вони, скоріше, виконують функцію прикраси, ніж повноцінної ручки в аксесуарі. Такі сумки можна поєднувати з кежуал образами, в такому випадку аксесуар стане акцентом. З елегантними спідницями та блузами його також можна скомбінувати. Тоді сумка з ланцюжком зменшить градус романтичності в образі.</p>
+<h3>Мікросумки</h3>
+<p><img src='https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/ertfg4_5edf90563e5b1.jpg' alt=\\"Жінка з синьою мікросумкою на зап’ясті\\"></p>
+<p>Як і торік, у 2020-му мікросумки займають своє місце серед трендів. Основоположником ідеї їх використання став модний будинок Jacquemus, який випустив свою найвідомішу мікросумку. Вона настільки маленька, що в неї можна помістити лише кілька монет. Зараз мінісумки майже втратили свою функцію та стали радше аксесуаром. Найчастіше їх роблять з довгими ланцюгами. За словами стилістки Соломії Небожук, такі сумки-гаманці комбінують з іншими сумками. Іноді модниці використовують їх як намисто. На диво, цей тренд чудово комбінується з кожним стилем. Мікросумка може стати частинкою кежуал, бохо, вечірнього чи мінімалістичного образу. До того ж, вона вдихне трохи свіжості та трендовості у звичайний базовий лук.</p>
+<h3>Стьобані сумки crossbody (через плече)</h3>
+<p><img src='https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/9_5edf90b4381c8.jpg' alt=\\"Жінка з коричневою стьобаною сумкою через плече\\"></p>
+<p>Такий вид сумки вважають найбільш універсальним. Ідейником цього тренду був також італійський бренд Bottega Veneta. Їхня сумка через плече Cassette стала дуже популярною серед поціновувачів моди. Цю модель підхопили і масмаркети, тому сьогодні схожу модель можна знайти на полицях бюджетних магазинів. Сумку кросбаді можна гарно застилізувати зі сукнями в квітковий принт, джинсами та класичними футболками (можливо поло) або ж із костюмами в білизняному стилі. Такий вид трендових сумок може повністю претендувати на місце в базовому гардеробі. Цей аксесуар дизайнерка рекомендує обирати нейтрального кольору та фасону, оскільки тоді вона підійде до багатьох комбінацій одягу.</p>
+<h3>Артові сумки</h3>
+<p><img src='https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/11_5edf9163c6237.jpg' alt=\\"Жінка з червоною сумкою у формі шару в руці\\"></p>
+<p>Якщо вам хочеться додати яскравого акценту в повсякденний лук, то артові сумки в цьому допоможуть. Сумки з тваринним принтом, незвичайні мінодьєри, сумки з пір’ям, бісером, в’язані аксесуари, джинсові сумки - це ще не весь перелік фантазії дизайнерів у 2020 році. Вони можуть поєднувати в собі різні кольори, мати додаткові аплікації чи незвичайні форми та матеріал. Їх краще носити з мінімалістичним та спокійним одягом або робити акцент на взутті чи головних уборах. Також можна поекспериментувати з сережками, ланцюжками або браслетами, які будуть перегукуватися з принтами на сумці.</p>
+<h3>Сумка-багет</h3>
+<p><img src='https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/7_5edf942a343c8.jpg' alt=\\"Жінка з блискучою коричневою прямокутною сумкою через плече\\"></p>
+<p>Ця модель сумки стала відомою в 2000 роках завдяки головній героїні серіалу “Секс у великомі місті” Кері Бредшоу. Саме вона обожнювала та колекціонувала моделі сумок Fendi Baguette (багет). Зараз в колекціях майже кожного модного будинку можна зустріти свої інтерпретації культової сумки-багету. Дизайнери експериментують з усіма її деталями, тому вона може стати акцентом базового гардеробу. Також сумка-багет є чудовим доповненням будь-якого образу, оскільки додає до нього нотки вінтажності.</p>
+",
+          },
+          Object {
+            "lang": "en",
+            "value": "<p>Now a bag is more than just an accessory. In 2020, it became the main detail of the trend image. Designers presented in their collections many universal and bright models that can be easily interpreted in everyday bows. More colors, styles and materials were added to the classic models.</p>
+<h3>Straw bags</h3>
+<p><img src='https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/solomani_5edf8e4b209ed.jpg' alt=\\"Woman with a straw bag in her hand\\"></p>
+<p>For several years in a row, straw bags have remained at the top. They are suitable for resort and city walks. They can also be worn under a classic suit or an elegant dress. Designer Solomiya Nebozhuk says that straw bags will make your image relax and add a touch of Parisian style. You can combine them with jeans, a white shirt and loafers. A straw shopper bag will go well with white culottes and a silk shirt. This bag is the basis of the 2020 summer wardrobe, a kind of springboard for fashion experiments. Designers improve the model of a classic straw bag every year. The main trend positions among straw bags were: shopper bag, minodiere, crossbody bag, top handle.</p>
+<h3>Bulky and soft clutch</h3>
+<p><img src='https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/11_5edf8f3209c11.jpg' alt=\\"Woman with a soft-color clutch bag in her hand\\"></p>
+<p>In the spring-summer 2020 season, clutches took the absolute lead among trend bags. Soft, unstructured and large clutches are part of the basic wardrobe of all fashionistas. The founder and king of this trend was the Italian brand Bottega Veneta, which presented the cult clutch Pouch. Since then, other brands have begun to actively offer such bags in their collections. Stylist Solomiya Nebozhuk explains that a clutch will become a universal element of your wardrobe. It can be combined with casual images, evening or cocktail dresses. It is important to remember that it should not be combined with very relaxed things, as your image may become too homely. It is better to prefer structured jeans, jackets or shirts. Also, the strong relaxation of the image can be compensated by hats and shoes.</p>
+<h3>Bags with massive chains</h3>
+<p><img src='https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/cepki_5edf8fffc7403.jpg' alt=\\"Woman with a brown bag on a massive chain over her shoulder\\"></p>
+<p>Chains everywhere are the main credo of summer 2020 trends. Designers add massive chains to all models of bags. They perform the function of decoration rather than a full-fledged handle in the accessory. Such bags can be combined with casual images, in which case the accessory will be an accent. It can also be combined with elegant skirts and blouses. Then a bag with a chain will reduce the degree of romance in the image.</p>
+<h3>Microbags</h3>
+<p><img src='https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/ertfg4_5edf90563e5b1.jpg' alt=\\"Woman with a blue microbag wound up her wrist\\"></p>
+<p>As last year, in 2020 microbags take their place among the trends. The founder of the idea of ​​their use was the fashion house Jacquemus, which released its most famous microbag. It is so small that only a few coins can be placed in it. Now mini-bags have almost lost their function and have become more of an accessory. Most often they are made with long chains. According to stylist Solomiya Nebozhuk, such purse bags are combined with other bags. Sometimes fashionistas use them as a necklace. Surprisingly, this trend is perfectly combined with every style. The microbag can become a part of a casual, boho, evening or minimalist image. In addition, it will breathe a little freshness and trendiness into a regular base bow.</p>
+<h3>Quilted crossbody bags (over the shoulder)</h3>
+<p><img src='https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/9_5edf90b4381c8.jpg' alt=\\"Woman with a quilted brown bag over her shoulder\\"></p>
+<p>This type of bag is considered the most versatile. The ideologue of this trend was also the Italian brand Bottega Veneta. Their shoulder bag Cassette has become very popular among fashion connoisseurs. This model was picked up by mass markets, so today a similar model can be found on the shelves of budget stores. The crossbad bag can be beautifully styled with floral dresses, jeans and classic T-shirts (possibly polo) or with lingerie-style suits. This type of trendy bags can fully claim a place in the basic wardrobe. The designer recommends choosing this accessory in a neutral color and style, because then it will suit many clothing combinations.</p>
+<h3>Art bags</h3>
+<p><img src='https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/11_5edf9163c6237.jpg' alt=\\"Woman with a red ball-shaped bag in her hand\\"></p>
+<p>If you want to add a bright accent to your everyday bow, art bags will help. Bags with animal prints, unusual minodieri, bags with feathers, beads, knitted accessories, denim bags - this is not the whole list of fantasy of designers in 2020. They can combine different colors, have additional applications or unusual shapes and materials. It is better to wear them with minimalist and calm clothes or to emphasize shoes or hats. You can also experiment with earrings, chains or bracelets that will resonate with the prints on the bag.</p>
+<h3>Baguette bag</h3>
+<p><img src='https://s.032.ua/section/newsInText/upload/images/news/intext/000/052/185/7_5edf942a343c8.jpg' alt=\\"Woman with a shiny brown rectangular bag over her shoulder\\"></p>
+<p>This bag model became famous in the 2000s thanks to the main character of the series \\"Sex in the Big City\\" Carrie Bradshaw. It was she who adored and collected models of Fendi Baguette bags. Now in the collections of almost every fashion house you can find their interpretations of the iconic baguette bag. Designers experiment with all its details, so it can become the focus of the basic wardrobe. Also, the baguette bag is a great addition to any image, as it adds a touch of vintage.</p>
+",
+          },
+        ],
+        "video": "https://www.youtube.com/embed/VGqZMqMGjgA",
+      },
+      Object {
+        "date": "1582477846000",
+        "text": Array [
+          Object {
+            "lang": "uk",
+            "value": "<p>У далекі буремні 90-ті без цього предмету побуту своє існування не уявляли ні тусовщики, ні спортсмени, ні гучні продавці на ринках, ні валютники біля обмінників, ні зайняті мами, ні бізнесмени. «Бельтбег», «омоньер», «сумка-нирка», «барижка», «бананка» ... Скільки імен у цієї модної деталі костюма! На сьогоднішній день цей вид сумки отримав заслужену любов і визнання.</p><p><strong>Бананка</strong> - все необхідне під рукою. Але чи всі ви знаєте, що історія сумок на пояс почалася в ті далекі часи, коли одяг шився без кишень, а перші гроші - залізні та мідні монети - вже з'явилися? О, як же незручно було переносити монети! Це була дійсно актуальна проблема тих років. Ось тоді і знайшлися підприємливі спритні кравці, які вигадали спеціальні поясні мішечки, в яких можна зберігати і транспортувати гроші. Минуло трохи часу, та ці сумки стали невід'ємним елементом гардеробу і чоловіків, і жінок. Саме по сумці, що висіла на поясі, можна було визначити статус людини. У простолюдинів вони були з простих міцних матеріалів. Представники вищих верств суспільства могли дозволити собі сумки з дорогих тканин, щедро розшиті всілякими візерунками і дорогоцінним камінням. Носили в таких сумочках гроші, парфуми, хустки, нюхальну сіль або навіть інструменти та зброю.</p><p>З тих пір сенс поясної сумки не втратив своєї актуальності, лише вміст злегка оновився: смартфон, банківська картка, ключі - і вперед! Ви готові до пригод!</p>
+<p><img src='https://intersumka.ua/image/catalog/_all/banan2.jpg' alt=\\"Чоловік з білою бананкою\\"></p>
+<h3>Плюсами цього супермодного аксесуара є:</h3>
+<ul>
+    <li>практичність і універсальність. Все необхідне з вами, при цьому руки залишаються вільними. Сумки не мають «вікових обмежень»: підходять і дітям, і підліткам, і людям старшого віку і навіть пенсіонерам.</li>
+    <li>різноманітність. Маса моделей дозволить обрати «свою» сумку.</li>
+    <li>ненав’язливість. Не привертає зайву увагу та не виглядає об’ємним. У той же час може стати прекрасним акцентом, що надає особливий шик вашому образу.</li>
+</ul>
+<h3>Для кого ж призначена ця сумка?</h3>
+<ul>
+    <li>Для любителів гарнітури «вільні руки» і «бути без нічого» - коли немає необхідності тягти об’ємну сумку або рюкзак, а кілька дрібниць захопити потрібно. Наприклад, для повсякденної прогулянки, на дискотеку, шопінг, побачення або прогулянку з собакою.</li>
+    <li>Для мандрівників - турист ховає документи, гроші, телефон і не боїться крадіжки, бо все на виду.</li>
+    <li>Для працівників сфери торгівлі або водіїв таксі - сумки відмінно замінюють портмоне й ідеально підходять для виручки.</li>
+    <li>Для будівельників і монтажних працівників - міцні і функціональні. Для спортсменів - телефон, ключі не обтягують кишені, а лежать в сумці і не заважають пересуванню.</li>
+</ul>
+<h3>Сумки на пояс відрізняються моделями:</h3>
+<ul>
+    <li>повсякденні (міські) бананки - компактні, без зайвих деталей, але дарують комфорт.</li>
+    <li>спортивні - виготовляються з дихаючих і водонепроникних матеріалів.</li>
+    <li>сумки гаманці - невеликого розміру для мінімальної кількості речей.</li>
+    <li>клатч на пояс - модно, стильно і дуже зручно.</li>
+    <li>якір - головна відмінність - трапецієвидна форма і більший розмір.</li>
+    <li>сумка теслі - місткість - головна перевага.</li>
+    <li>сумка для годування тварин - використовується на виставках, прогулянці, в процесі дресирування вихованця.</li>
+</ul>
+<h3>Може виникнути цілком резонне питання: як і з чим носити таку сумку?</h3>
+<ul>
+    <li>бельтбег носять: на поясі, як попереду, так і ззаду, що досить логічно, враховуючи, що це поясна сумка. Хочете підкреслити талію - підніміть пояс вище, відвернути увагу від неї - опустіть нижче;</li>
+    <li>через плече перед собою - завжди на виду і практично недосяжна для злодіїв;</li>
+    <li>на стегнах ближче до спини - ідеально для тих, хто побачив кілька зайвих сантиметрів на своїй талії або має вузькі стегна.</li>
+</ul>
+<p>Носити бананку можна практично з будь-яким одягом: класичний костюм, джинси і футболки, легке плаття до підлоги або міні-спідниця; на поясі під розкритим пальто восени або поверх пуховика взимку.</p>
+<p><img src='https://intersumka.ua/image/catalog/_all/banan3.jpg' alt=\\"Жінка з жовтою бананкою на поясі\\"></p>
+<h3>Отже, підводимо підсумки.</h3>
+<p>Сумки - бананки ефектно доповнять ваш образ, незалежно від того, повсякденний це гардероб або вечірнє вбрання. Залежно від обраної моделі ви можете виглядати жіночно (мужньо) і стильно, або зухвало і сміливо. Це поєднання комфорту і стілю. В сучасному мегаактивному ритмі життя кондукторка - незамінний аксесуар. Адже ніщо не сковує рухів, що дуже важливо. Ви можете спокійно займатися шопінгом, їздити на велосипеді або бігати в парку, веселитися на дискотеці, насолоджуватися екскурсією, фотографувати або навіть спілкуватися в соцмережах. З цього виходить, що ця універсальна, практична сумка повинна бути в гардеробі у кожної людини!</p>
+",
+          },
+          Object {
+            "lang": "en",
+            "value": "<p>In the turbulent 1990s, no partygoers, no athletes, no loud sellers in the markets, no money changers near exchangers, no busy mothers, no businessmen imagined their existence without this household item. «Beltbag», «omonier», «kidney bag», «baryzhka», «banana» ... How many names in this fashionable detail of a suit! To date, this type of bag has received well-deserved love and recognition.</p><p><strong>Fanny pack</strong> - everything you need at hand. But do you all know that the history of belt bags began in those distant times, when clothes were sewn without pockets, and the first money - iron and copper coins - had already appeared? Oh, how inconvenient it was to carry coins! This was a really pressing issue in those years. That's when there were enterprising nimble tailors who invented special waist bags in which you can store and transport money. It took some time, but these bags have become an integral part of the wardrobe of both men and women. It was on the bag that hung on his belt, it was possible to determine the status of the person. In the common people, they were made of simple durable materials. Representatives of the upper strata of society could afford bags made of expensive fabrics, generously embroidered with all sorts of patterns and precious stones. They carried money, perfumes, handkerchiefs, sniffing salt or even tools and weapons in such bags.</p><p>Since then, the meaning of the waist bag has not lost its relevance, only the content has been slightly updated: smartphone, bank card, keys - and so on! You are ready for adventure!</p>
+<p><img src='https://intersumka.ua/image/catalog/_all/banan2.jpg' alt=\\"Man with a white fanny pack\\"></p>
+<h3>The advantages of this super fashionable accessory are:</h3>
+<ul>
+    <li>practicality and versatility. Everything you need is with you, while your hands remain free. Bags have no \\"age restrictions\\": they are suitable for children, teenagers, the elderly and even retirees.</li>
+    <li>variety. A lot of models will allow you to choose \\"your\\" bag.</li>
+    <li>unobtrusiveness. Does not attract too much attention and does not look bulky. At the same time, it can be a great accent that gives a special chic to your image.</li>
+</ul>
+<h3>Who is this bag for?</h3>
+<ul>
+    <li>For fans of the headset \\"hands free\\" and \\"to be without anything\\" - when there is no need to carry a bulky bag or backpack, and a few little things need to be captured. For example, for a daily walk, a disco, shopping, a date or a walk with a dog.</li>
+    <li>For travelers - a tourist hides documents, money, phone and is not afraid of theft, because everything is in sight.</li>
+    <li>For trade workers or taxi drivers, bags are a great replacement for a purse and are ideal for revenue.</li>
+    <li>For builders and installers - strong and functional. For athletes - a phone, the keys do not fit in your pocket, but lie in a bag and do not interfere with movement.</li>
+</ul>
+<h3>Belt bags differ in models:</h3>
+<ul>
+    <li>everyday (urban) bananas - compact, without unnecessary details, but give comfort.</li>
+    <li>sports - are made of breathable and waterproof materials.</li>
+    <li>handbags wallets - small size for a minimum number of things.</li>
+    <li>belt clutch - fashionable, stylish and very comfortable.</li>
+    <li>anchor - the main difference - a trapezoidal shape and larger size.</li>
+    <li>carpenter’s bag - capacity - the main advantage.</li>
+    <li>bag for feeding animals - used at exhibitions, walks, in the process of training a pet.</li>
+</ul>
+<h3>A very reasonable question may arise: how and with what to carry such a bag?</h3>
+<ul>
+    <li>Beltbag is worn: on the belt, both in front and behind, which is quite logical, given that it is a waist bag. Want to emphasize the waist - raise the belt higher, distract from it - lower;</li>
+    <li>over his shoulder in front of him - always in sight and almost inaccessible to thieves;</li>
+    <li>on the thighs closer to the back - ideal for those who saw a few extra inches at their waist or have narrow thighs.</li>
+</ul>
+<p>You can wear a banana with almost any clothing: a classic suit, jeans and T-shirts, a light floor-length dress or a mini-skirt; on the belt under an open coat in autumn or on top of a down jacket in winter.</p>
+<p><img src='https://intersumka.ua/image/catalog/_all/banan3.jpg' alt=\\"Woman with a yellow fanny pack on her belt\\"></p>
+<h3>So, let’s summarize.</h3>
+<p>Bags - bananas will effectively complement your image, regardless of whether it is an everyday wardrobe or evening dress. Depending on the chosen model, you can look feminine (masculine) and stylish, or bold and bold. It is a combination of comfort and style. In the modern megaactive rhythm of life, the conductor is an indispensable accessory. After all, nothing restricts movement, which is very important. You can go shopping, ride a bike or run in the park, have fun at a disco, enjoy a tour, take photos or even chat on social networks. It follows that this versatile, practical bag should be in everyone’s wardrobe!</p>
+",
+          },
+        ],
+        "video": "https://www.youtube.com/embed/Y7L_gvaGfx0",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "зтест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "змінена новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+      Object {
+        "date": "1212121",
+        "text": Array [
+          Object {
+            "lang": "ua",
+            "value": "тест новина",
+          },
+          Object {
+            "lang": "eng",
+            "value": "test news",
+          },
+        ],
+        "video": "3ffefefds.jpg",
+      },
+    ],
   },
   "loading": false,
   "networkStatus": 7,
