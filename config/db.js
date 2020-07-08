@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const configService = require('../utils/configService');
 
 const connectDB = async () => {
-  const db = await configService.getSecret('MONGO_URL');
+  const db = await configService.getSecret('MONGO-URL');
   try {
     await mongoose.connect(db, {
       useNewUrlParser: true,
