@@ -25,7 +25,7 @@ describe('querries', () => {
         }
       `,
     });
-    expect(res).toMatchSnapshot();
+
     expect(newsQuery.getAllNews()).resolves.toBe(res);
     expect(newsService.getAllNews()).resolves.toBe(res);
   });
@@ -46,10 +46,10 @@ describe('querries', () => {
       `,
     });
 
-    expect(res).toMatchSnapshot();
     expect(newsQuery.getAllNews()).resolves.toBe(res);
     expect(newsService.getAllNews()).resolves.toBe(res);
   });
+
   test('should receive author, images', async () => {
     const res = await client.query({
       query: gql`
@@ -78,7 +78,7 @@ describe('querries', () => {
         }
       `,
     });
-    expect(res).toMatchSnapshot();
+
     expect(newsQuery.getAllNews()).resolves.toBe(res);
     expect(newsService.getAllNews()).resolves.toBe(res);
   });
@@ -136,7 +136,7 @@ describe('querries', () => {
     const res = await client.query({
       query: gql`
         query {
-          getNewsById(id: "5f0462f514438544ec76a783") {
+          getNewsById(id: "5a0462f514438544ec76a783") {
             author {
               name {
                 lang
@@ -169,22 +169,41 @@ describe('querries', () => {
       res,
     );
   });
-
-  test('delete news', async () => {
-    const res = await client
-      .mutate({
-        mutation: gql`
-          mutation {
-            deleteNews(id: ${newsToDeleteId}) {
-              _id
+  test('should receive error', async () => {
+    const res = await client.query({
+      query: gql`
+        query {
+          getNewsById(id: "3a0462f514438544ec76a783") {
+            author {
+              name {
+                lang
+                value
+              }
+              image {
+                small
+              }
+            }
+            images {
+              primary {
+                medium
+              }
+              additional {
+                medium
+                small
+                large
+              }
             }
           }
-        `,
-      })
-      .then(res => res);
+        }
+      `,
+    });
 
     expect(res).toMatchSnapshot();
-    expect(newsMutation.deleteNews(null, newsToDeleteId)).resolves.toBe(null);
-    expect(newsService.deleteNews(newsToDeleteId)).resolves.toBe(null);
+    expect(
+      newsQuery.getNewsById(null, '3a0462f514438544ec76a783'),
+    ).resolves.toBe(res);
+    expect(
+      newsService.getNewsById('3a0462f514438544ec76a783'),
+    ).resolves.toThrow();
   });
 });
