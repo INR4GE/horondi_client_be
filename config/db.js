@@ -7,7 +7,7 @@ const connectDB = async () => {
   console.log('MONGO-URL', await configService.getSecret('MONGO-URL'));
   console.log('MONGO-URL', await configService.getSecret('MONGO-URL'));
   console.log('MONGO_URL', await configService.getSecret('MONGO_URL'));
-  const db = await configService.getSecret('MONGO-URL');
+  const db = await configService.getSecret('MONGO_URL');
   try {
     await mongoose.connect(db, {
       useNewUrlParser: true,
