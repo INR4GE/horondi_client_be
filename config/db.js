@@ -3,6 +3,8 @@ const mongoose = require('mongoose');
 const configService = require('../utils/configService');
 
 const connectDB = async () => {
+  console.log(process.env);
+  console.log('MONGO-URL', await configService.getSecret('MONGO-URL'));
   console.log('MONGO-URL', await configService.getSecret('MONGO-URL'));
   console.log('MONGO_URL', await configService.getSecret('MONGO_URL'));
   const db = await configService.getSecret('MONGO-URL');
