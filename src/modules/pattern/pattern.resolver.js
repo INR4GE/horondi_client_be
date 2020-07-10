@@ -8,8 +8,9 @@ const patternQuery = {
 const patternMutation = {
   addPattern: (parent, args) => patternService.addPattern(args.pattern),
   deletePattern: (parent, args) => patternService.deletePattern(args.id),
-  updatePattern: (parent, args) =>
-    patternService.updatePattern(args.id, args.pattern),
+  updatePattern: (parent, args) => {
+    patternService.updatePattern(args.id, args.pattern);
+  },
 };
 
 module.exports = {

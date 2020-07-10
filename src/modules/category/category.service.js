@@ -2,10 +2,12 @@ const Category = require('./category.model');
 
 const categoryErrorMessage = JSON.stringify([
   {
-    lang: 'uk', value: 'Категорій не знайдено',
+    lang: 'uk',
+    value: 'Категорій не знайдено',
   },
   {
-    lang: 'eng', value: 'Category not found',
+    lang: 'eng',
+    value: 'Category not found',
   },
 ]);
 class CategoryService {
@@ -25,9 +27,7 @@ class CategoryService {
   }
 
   async addCategory(data) {
-    const category = new Category(data);
-    await category.save();
-    return category;
+    return new Category(data).save();
   }
 
   deleteCategory(id) {

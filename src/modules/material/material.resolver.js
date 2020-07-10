@@ -8,8 +8,9 @@ const materialQuery = {
 const materialMutation = {
   addMaterial: (parent, args) => materialService.addMaterial(args.material),
   deleteMaterial: (parent, args) => materialService.deleteMaterial(args.id),
-  updateMaterial: (parent, args) =>
-    materialService.updateMaterial(args.id, args.material),
+  updateMaterial: (parent, args) => {
+    materialService.updateMaterial(args.id, args.material);
+  },
 };
 
 module.exports = {
