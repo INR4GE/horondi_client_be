@@ -10,4 +10,7 @@ const newsMutation = {
   updateNews: (parent, args) => newsService.updateNews(args.id, args.news),
 };
 
-module.exports = { newsQuery, newsMutation };
+module.exports = {
+  newsQuery,
+  newsMutation,
+};

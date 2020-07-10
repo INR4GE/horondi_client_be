@@ -17,4 +17,7 @@ const userMutation = {
     : new Error('Unauthorized')),
 };
 
-module.exports = { userQuery, userMutation };
+module.exports = {
+  userQuery,
+  userMutation,
+};

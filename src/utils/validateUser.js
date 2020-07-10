@@ -20,7 +20,9 @@ exports.validateRegisterInput = Joi.object({
 
   email: Joi.string().email({
     minDomainSegments: 2,
-    tlds: { allow: ['com', 'net'] },
+    tlds: {
+      allow: ['com', 'net'],
+    },
   }),
 });
 
@@ -39,7 +41,9 @@ exports.validateUpdateInput = Joi.object({
 
   email: Joi.string().email({
     minDomainSegments: 2,
-    tlds: { allow: ['com', 'net'] },
+    tlds: {
+      allow: ['com', 'net'],
+    },
   }),
 });
 
@@ -51,6 +55,8 @@ exports.validateLoginInput = Joi.object({
 
   email: Joi.string().email({
     minDomainSegments: 2,
-    tlds: { allow: ['com', 'net'] },
+    tlds: {
+      allow: ['com', 'net'],
+    },
   }),
 });

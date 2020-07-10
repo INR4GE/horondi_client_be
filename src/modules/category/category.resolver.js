@@ -13,4 +13,7 @@ const categoryMutation = {
   updateCategory: (parent, args) => categoryService.updateCategory(args.id, args.category),
 };
 
-module.exports = { categoryQuery, categoryMutation };
+module.exports = {
+  categoryQuery,
+  categoryMutation,
+};

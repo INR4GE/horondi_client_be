@@ -24,4 +24,7 @@ const passwordResetEmail = (text, firstName) => `
   </div>
 `;
 
-module.exports = { passwordResetEmail, transport };
+module.exports = {
+  passwordResetEmail,
+  transport,
+};

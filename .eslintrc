@@ -77,21 +77,14 @@
       }
     ],
     "operator-linebreak": [2, "before"],
-    "object-curly-newline": [
-      "error",
-      {
-        "ObjectExpression": "always",
-        "ObjectPattern": { "multiline": true },
-        "ImportDeclaration": "never",
-        "ExportDeclaration": { "multiline": true, "minProperties": 3 }
-      }
-    ],
+    "object-curly-newline": 0,
     "no-return-await": 2,
     "camelcase": 0,
     "no-useless-return": 2,
     "no-multi-str": 2,
     "no-constant-condition": 1,
     "no-extra-parens": [1, "functions"],
+    "implicit-arrow-linebreak": ["error", "beside"],
     "no-param-reassign": [
       2,
       {
