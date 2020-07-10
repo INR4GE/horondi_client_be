@@ -32,7 +32,7 @@ class MaterialsService {
   async addMaterial(data) {
     const material = new Material(data);
     await material.save();
-    return Material;
+    return material;
   }
 
   async deleteMaterial(id) {

@@ -37,7 +37,7 @@ class PatternsService {
 
   async deletePattern(id) {
     const response = await Pattern.findByIdAndDelete(id);
-    if (response) {
+    if (!response) {
       return new Error(patternErrorMessage);
     }
   }
