@@ -26,6 +26,11 @@ const createQuery = JSON.stringify({
 });
 
 describe('news mutations', () => {
+  test('News mutations should be defined', () => {
+    expect(newsMutation.addNews).toBeDefined();
+    expect(newsMutation.updateNews).toBeDefined();
+    expect(newsMutation.deleteNews).toBeDefined();
+  });
   test('add news', async () => {
     const res = await client
       .mutate({

@@ -13,7 +13,7 @@ describe('querries', () => {
     expect(newsService.getNewsById).toBeDefined();
   });
 
-  test(' should receive id,title', async () => {
+  test('#2 should receive id,title', async () => {
     const res = await client
       .query({
         query: gql`
@@ -40,7 +40,7 @@ describe('querries', () => {
     expect(newsService.getAllNews()).resolves.toBe(res);
   });
 
-  test('should receive text, video, date', async () => {
+  test('#3 should receive text, video, date', async () => {
     const res = await client
       .query({
         query: gql`
@@ -63,7 +63,7 @@ describe('querries', () => {
     expect(newsService.getAllNews()).resolves.toBe(res);
   });
 
-  test('should receive author, images', async () => {
+  test('#4 should receive author, images', async () => {
     const res = await client
       .query({
         query: gql`
@@ -100,7 +100,7 @@ describe('querries', () => {
     expect(newsService.getAllNews()).resolves.toBe(res);
   });
 
-  test('should receive one news id,title', async () => {
+  test('#5 should receive one news id,title', async () => {
     const res = await client
       .query({
         query: gql`
@@ -134,7 +134,7 @@ describe('querries', () => {
     );
   });
 
-  test('should receive one news author, images', async () => {
+  test('#6 should receive one news author, images', async () => {
     const res = await client
       .query({
         query: gql`
@@ -173,7 +173,7 @@ describe('querries', () => {
       res,
     );
   });
-  test('check if field images is in response', async () => {
+  test('#7 check if field images is in response', async () => {
     const res = await client
       .query({
         query: gql`
@@ -209,7 +209,53 @@ describe('querries', () => {
       newsQuery.getNewsById(null, '5f0570bca23481321c43f422').then(res => res)
         .images,
     ).toEqual(res.data.images);
+
+    expect(
+      newsService.getNewsById('5f0570bca23481321c43f422').then(res => res)
+        .images,
+    ).toEqual(res.data.images);
   });
 
   // error test
+  test('#8 should throw error', async () => {
+    const res = await client
+      .query({
+        query: gql`
+          query {
+            getNewsById(id: "1f0570bca23481321c43f433") {
+              author {
+                name {
+                  lang
+                  value
+                }
+                image {
+                  small
+                }
+              }
+              images {
+                primary {
+                  medium
+                }
+                additional {
+                  medium
+                  small
+                  large
+                }
+              }
+            }
+          }
+        `,
+      })
+      .then(res => res)
+      .catch(e => e);
+
+    expect(res).toMatchSnapshot();
+    expect(
+      newsQuery.getNewsById(null, '1f0570bca23481321c43f433'),
+    ).resolves.toBe(res);
+
+    expect(newsService.getNewsById('1f0570bca23481321c43f433')).resolves.toBe(
+      res,
+    );
+  });
 });

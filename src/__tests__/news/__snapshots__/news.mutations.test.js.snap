@@ -3,7 +3,18 @@
 exports[`news mutations delete news 1`] = `
 Object {
   "data": Object {
-    "deleteNews": null,
+    "deleteNews": Object {
+      "title": Array [
+        Object {
+          "lang": "uk",
+          "value": "тест",
+        },
+        Object {
+          "lang": "eng",
+          "value": "blabla",
+        },
+      ],
+    },
   },
 }
 `;

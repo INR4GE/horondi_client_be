@@ -1,62 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`querries check if field images is in response 1`] = `
-Object {
-  "data": Object {
-    "getNewsById": Object {
-      "author": Object {
-        "image": null,
-        "name": Array [],
-      },
-      "images": Object {
-        "additional": Array [
-          Object {
-            "large": null,
-            "medium": null,
-            "small": "dfgfdg.jpg",
-          },
-        ],
-        "primary": Object {
-          "medium": "sdfsdf4.jpg",
-        },
-      },
-    },
-  },
-  "loading": false,
-  "networkStatus": 7,
-  "stale": false,
-}
-`;
-
-exports[`querries should receive one news author, images 1`] = `
-Object {
-  "data": Object {
-    "getNewsById": Object {
-      "author": Object {
-        "image": null,
-        "name": Array [],
-      },
-      "images": Object {
-        "additional": Array [
-          Object {
-            "large": null,
-            "medium": null,
-            "small": "dfgfdg.jpg",
-          },
-        ],
-        "primary": Object {
-          "medium": "sdfsdf4.jpg",
-        },
-      },
-    },
-  },
-  "loading": false,
-  "networkStatus": 7,
-  "stale": false,
-}
-`;
-
-exports[`querries should receive one news id,title 1`] = `
+exports[`querries #5 should receive one news id,title 1`] = `
 Object {
   "data": Object {
     "getNewsById": Object {
@@ -79,3 +23,61 @@ Object {
   "stale": false,
 }
 `;
+
+exports[`querries #6 should receive one news author, images 1`] = `
+Object {
+  "data": Object {
+    "getNewsById": Object {
+      "author": Object {
+        "image": null,
+        "name": Array [],
+      },
+      "images": Object {
+        "additional": Array [
+          Object {
+            "large": null,
+            "medium": null,
+            "small": "dfgfdg.jpg",
+          },
+        ],
+        "primary": Object {
+          "medium": "sdfsdf4.jpg",
+        },
+      },
+    },
+  },
+  "loading": false,
+  "networkStatus": 7,
+  "stale": false,
+}
+`;
+
+exports[`querries #7 check if field images is in response 1`] = `
+Object {
+  "data": Object {
+    "getNewsById": Object {
+      "author": Object {
+        "image": null,
+        "name": Array [],
+      },
+      "images": Object {
+        "additional": Array [
+          Object {
+            "large": null,
+            "medium": null,
+            "small": "dfgfdg.jpg",
+          },
+        ],
+        "primary": Object {
+          "medium": "sdfsdf4.jpg",
+        },
+      },
+    },
+  },
+  "loading": false,
+  "networkStatus": 7,
+  "stale": false,
+}
+`;
+
+exports[`querries #8 should throw error 1`] = `[Error: GraphQL error: [{"lang":"uk","value":"Новин  не знайдено"},{"lang":"eng","value":"News not found"}]]`;
