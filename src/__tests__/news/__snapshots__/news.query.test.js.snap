@@ -1,9 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`querries should receive error 1`] = `
+exports[`querries check if field images is in response 1`] = `
 Object {
   "data": Object {
-    "getNewsById": null,
+    "getNewsById": Object {
+      "author": Object {
+        "image": null,
+        "name": Array [],
+      },
+      "images": Object {
+        "additional": Array [
+          Object {
+            "large": null,
+            "medium": null,
+            "small": "dfgfdg.jpg",
+          },
+        ],
+        "primary": Object {
+          "medium": "sdfsdf4.jpg",
+        },
+      },
+    },
   },
   "loading": false,
   "networkStatus": 7,
@@ -14,7 +31,24 @@ Object {
 exports[`querries should receive one news author, images 1`] = `
 Object {
   "data": Object {
-    "getNewsById": null,
+    "getNewsById": Object {
+      "author": Object {
+        "image": null,
+        "name": Array [],
+      },
+      "images": Object {
+        "additional": Array [
+          Object {
+            "large": null,
+            "medium": null,
+            "small": "dfgfdg.jpg",
+          },
+        ],
+        "primary": Object {
+          "medium": "sdfsdf4.jpg",
+        },
+      },
+    },
   },
   "loading": false,
   "networkStatus": 7,
@@ -25,18 +59,20 @@ Object {
 exports[`querries should receive one news id,title 1`] = `
 Object {
   "data": Object {
-    "getNewsById": null,
-  },
-  "loading": false,
-  "networkStatus": 7,
-  "stale": false,
-}
-`;
-
-exports[`querries should receive one news text, video, date 1`] = `
-Object {
-  "data": Object {
-    "getNewsById": null,
+    "getNewsById": Object {
+      "_id": "5f0570bca23481321c43f422",
+      "images": Object {
+        "additional": Array [
+          Object {
+            "medium": null,
+            "small": "dfgfdg.jpg",
+          },
+        ],
+        "primary": Object {
+          "medium": "sdfsdf4.jpg",
+        },
+      },
+    },
   },
   "loading": false,
   "networkStatus": 7,

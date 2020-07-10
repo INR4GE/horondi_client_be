@@ -54,8 +54,7 @@ describe('news mutations', () => {
           }
         `,
       })
-      .then(res => res)
-      .catch(e => console.log(e));
+      .then(res => res);
 
     newsToUpdateAndDeleteId = res.data.addNews._id;
 
@@ -94,8 +93,7 @@ describe('news mutations', () => {
           ${updateQuery}
         `,
       })
-      .then(res => res)
-      .catch(e => console.log(e));
+      .then(res => res);
 
     expect(
       newsMutation.updateNews(newsToUpdateAndDeleteId, {
@@ -106,7 +104,7 @@ describe('news mutations', () => {
       newsService.updateNews(newsToUpdateAndDeleteId, {
         ...updateQuery,
       }),
-    );
+    ).resolves.toBe(res);
   });
 
   test('delete news', async () => {
@@ -120,11 +118,13 @@ mutation {
   }
 }
 `;
-    const res = await client.mutate({
-      mutation: gql`
-        ${deleteQuery}
-      `,
-    });
+    const res = await client
+      .mutate({
+        mutation: gql`
+          ${deleteQuery}
+        `,
+      })
+      .then(res => res);
 
     expect(res).toMatchSnapshot();
     expect(

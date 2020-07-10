@@ -3,6 +3,7 @@ type User{
     id:ID!
     firstName: String!
     lastName: String!
+    password: String
     role: RoleEnum
     email: String!
     phoneNumber: Int
@@ -22,8 +23,8 @@ const userInput = `
 input UserInput {
     firstName: String
     lastName: String
+    password: String
     role: String
-    password: String!
     email: String!
     phoneNumber: Int
     address: AddressInput

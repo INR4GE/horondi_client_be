@@ -1,10 +1,10 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
-const azureService = require('../utils/azureService');
+const configService = require('../utils/configService');
 
-const db = azureService.getSecret('MONGO_URL');
-
+const db = process.env.TEST_MONGO;
 const connectDB = async () => {
+  // const db = await configService.getSecret('MONGO_URL');
   try {
     await mongoose.connect(db, {
       useNewUrlParser: true,
