@@ -1,5 +1,6 @@
 const { newsQuery, newsMutation } = require('./src/modules/news/news.resolver');
 const { userQuery, userMutation } = require('./src/modules/user/user.resolver');
+const { productsQuery } = require('./src/modules/products/products.resolver');
 const {
   currencyQuery,
   currencyMutation,
@@ -30,6 +31,8 @@ const resolvers = {
     ...newsQuery,
 
     ...userQuery,
+
+    ...productsQuery,
   },
   Mutation: {
     ...patternMutation,
