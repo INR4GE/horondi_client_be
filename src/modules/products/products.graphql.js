@@ -14,13 +14,7 @@ category: Category,
 }`;
 
 // const productsInput = `
-// input ProductsInput {
-// title: [LanguageInput]
-// text: [LanguageInput]
-// images: PrimaryImageInput
-// video: String
-// author: AuthorInput
-// date: String
+
 // }`;
 
 module.exports = {
