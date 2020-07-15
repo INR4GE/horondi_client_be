@@ -1,9 +1,9 @@
 const { ApolloServer } = require('apollo-server');
 const typeDefs = require('./typeDefs');
 const resolvers = require('./resolvers');
-const connectDB = require('./src/config/db');
-const userService = require('./src/modules/user/user.service');
-const verifyUser = require('./src/utils/verifyUser');
+const connectDB = require('./config/db');
+const userService = require('./modules/user/user.service');
+const verifyUser = require('./utils/verifyUser');
 
 connectDB();
 require('dotenv').config();

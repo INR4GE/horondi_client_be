@@ -6,7 +6,9 @@
 
 # testing
 /coverage
+/src/coverage
 /logs
+/src/logs
 # production
 
 

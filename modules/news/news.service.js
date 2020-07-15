@@ -1,4 +1,5 @@
 const News = require('./news.model');
+const ApiError = require('../../utils/apiError');
 
 const newsErrorMessage = JSON.stringify([
   {
@@ -12,16 +13,17 @@ const newsErrorMessage = JSON.stringify([
 ]);
 class NewsService {
   async getAllNews() {
-    return (await News.find()) || new Error(newsErrorMessage);
+    return (await News.find()) || ApiError(404, newsErrorMessage);
   }
 
   async getNewsById(id) {
-    return (await News.findById(id)) || new Error(newsErrorMessage);
+    return (await News.findById(id)) || new ApiError(404, newsErrorMessage);
   }
 
   async updateNews(id, news) {
     return (
-      (await News.findByIdAndUpdate(id, news)) || new Error(newsErrorMessage)
+      (await News.findByIdAndUpdate(id, news))
+      || ApiError(404, newsErrorMessage)
     );
   }
 
@@ -30,7 +32,9 @@ class NewsService {
   }
 
   async deleteNews(id) {
-    return (await News.findByIdAndDelete(id)) || new Error(newsErrorMessage);
+    return (
+      (await News.findByIdAndDelete(id)) || ApiError(404, newsErrorMessage)
+    );
   }
 }
 module.exports = new NewsService();
