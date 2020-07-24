@@ -20,6 +20,9 @@ const {
   categoryQuery,
   categoryMutation,
 } = require('./modules/category/category.resolver');
+const {
+  filterQuery,
+} = require('./modules/filter/filter.resolver');
 const { getCategoryById } = require('./modules/category/category.service');
 // const { getUserByFieldOrThrow } = require('./modules/user/user.service');
 
@@ -38,6 +41,8 @@ const resolvers = {
     ...userQuery,
 
     ...productsQuery,
+
+    ...filterQuery,
   },
 
   Products: {

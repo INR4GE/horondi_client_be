@@ -21,6 +21,9 @@ const {
   currencyType,
   currencyInput,
 } = require('./modules/currency/currency.graphql.js');
+const {
+  filterInput,
+} = require('./modules/filter/filter.graphql.js');
 
 const typeDefs = gql`
   ${categoryType}
@@ -112,6 +115,8 @@ const typeDefs = gql`
 
     getAllProducts: [Products!]!
     getProductsById(id: ID!): Products
+
+    getFiltredProducts(filters: FilterInput): [Products]
   }
 
   input RoleEnumInput {
@@ -135,6 +140,7 @@ const typeDefs = gql`
   ${patternsInput}
   ${userInput}
   ${productsInput}
+  ${filterInput}
 
   input LanguageInput {
     lang: String!
@@ -212,9 +218,9 @@ const typeDefs = gql`
     updateUserByToken(user: UserInput!): User
 
     "Products Mutation"
-    addProducts(product: productsInput!): Products
+    addProducts(product: ProductsInput!): Products
     deleteProducts(id: ID!): Products
-    updateProductById(id: ID!, product: productsInput!): Products
+    updateProductById(id: ID!, product: ProductsInput!): Products
   }
 `;
 

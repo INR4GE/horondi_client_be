@@ -25,7 +25,7 @@ votedUsers: [ID!]
 `;
 
 const productsInput = `
-input productsInput {
+input ProductsInput {
 name: [LanguageInput]
 description: [LanguageInput]
 mainMaterial: [LanguageInput]
