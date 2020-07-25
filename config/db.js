@@ -4,6 +4,7 @@ const configService = require('../utils/configService');
 
 const connectDB = async () => {
   const db = await configService.getSecret('MONGO_URL');
+  console.log('Hello', db);
   try {
     await mongoose.connect(db, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => console.log('MongoDB Connected...'));
   } catch (err) {
