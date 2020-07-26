@@ -91,6 +91,7 @@ const typeDefs = gql`
     name: [Language]
     images: ImageSet
     available: Boolean
+    simpleName: String
   }
 
   type Query {
@@ -167,6 +168,7 @@ const typeDefs = gql`
     name: [LanguageInput!]
     images: ImageSetInput
     available: Boolean!
+    simpleName: String
   }
 
   input ConvertOptionInput {
