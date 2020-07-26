@@ -1,12 +1,8 @@
 const productsService = require('./products.service');
 
-const searchConfig = searchTerm => {
-  console.log(typeof new RegExp(searchTerm));
-  return [
-    { title: { $regex: `${new RegExp(searchTerm)}` } },
-    { description: { $regex: new RegExp(searchTerm) } },
-  ];
-};
+const searchConfig = searchTerm => [
+  { name: { $elemMatch: { value: { $regex: new RegExp(searchTerm, 'i') } } } },
+];
 
 const productsQuery = {
   getAllProducts: () => productsService.getAllProducts(),
