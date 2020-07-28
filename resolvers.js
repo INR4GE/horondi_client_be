@@ -3,12 +3,12 @@ const { userQuery, userMutation } = require('./modules/user/user.resolver');
 const {
   productsQuery,
   productsMutation,
-} = require('./modules/products/products.resolver');
+} = require('./modules/product/product.resolver');
 
 const {
   commentsQuery,
   commentsMutation,
-} = require('./modules/comments/comments.resolver');
+} = require('./modules/comment/comment.resolver');
 
 const {
   currencyQuery,
@@ -28,9 +28,9 @@ const {
 } = require('./modules/category/category.resolver');
 const categoryService = require('./modules/category/category.service');
 const userService = require('./modules/user/user.service');
-const productsService = require('./modules/products/products.service');
+const productsService = require('./modules/product/product.service');
 const materialsService = require('./modules/material/material.service');
-const commentsService = require('./modules/comments/comments.service');
+const commentsService = require('./modules/comment/comment.service');
 
 const resolvers = {
   Query: {
@@ -56,6 +56,7 @@ const resolvers = {
   },
 
   Products: {
+    category: parent => categoryService.getCategoryById(parent.category),
     subcategory: parent => categoryService.getCategoryById(parent.subcategory),
     comments: parent => commentsService.getAllCommentsByProduct(parent._id),
   },
@@ -81,6 +82,46 @@ const resolvers = {
     ...productsMutation,
 
     ...commentsMutation,
+  },
+  CategoryResult: {
+    __resolveType: obj => {
+      if (obj.name) {
+        return 'Category';
+      }
+      return 'Error';
+    },
+  },
+  CurrencyResult: {
+    __resolveType: obj => {
+      if (obj.date) {
+        return 'Currency';
+      }
+      return 'Error';
+    },
+  },
+  NewsResult: {
+    __resolveType: obj => {
+      if (obj.title) {
+        return 'News';
+      }
+      return 'Error';
+    },
+  },
+  MaterialResult: {
+    __resolveType: obj => {
+      if (obj.name) {
+        return 'Material';
+      }
+      return 'Error';
+    },
+  },
+  PatternResult: {
+    __resolveType: obj => {
+      if (obj.name) {
+        return 'Pattern';
+      }
+      return 'Error';
+    },
   },
 };
 

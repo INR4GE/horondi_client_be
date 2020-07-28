@@ -4,7 +4,7 @@ const { userType, userInput } = require('./modules/user/user.graphql');
 const {
   productsType,
   productsInput,
-} = require('./modules/products/products.graphql');
+} = require('./modules/product/product.graphql');
 const {
   categoryType,
   categoryInput,
@@ -24,7 +24,7 @@ const {
 const {
   commentsType,
   commentsInput,
-} = require('./modules/comments/comments.graphql');
+} = require('./modules/comment/comment.graphql');
 
 const typeDefs = gql`
   ${categoryType}
@@ -93,13 +93,13 @@ const typeDefs = gql`
     name: [Language]
     images: ImageSet
     available: Boolean
-    simpleName: String
+    simpleName: [Language]
   }
 
   type ProductOptions {
     size: Size
     bottomMaterial: BottomMaterial
-    bottomColor: String
+    bottomColor: [Language]
     availableCount: Boolean
     additions: [ProductAdditions]
   }
@@ -129,30 +129,39 @@ const typeDefs = gql`
     available: Boolean
     additionalPrice: Int
   }
+  type Error {
+    statusCode: Int
+    message: [Language]
+  }
+
+  union CategoryResult = Category | Error
+  union CurrencyResult = Currency | Error
+  union MaterialResult = Material | Error
+  union PatternResult = Pattern | Error
+  union NewsResult = News | Error
 
   type Query {
     getAllCurrencies: [Currency!]!
-    getCurrencyById(id: ID): Currency
+    getCurrencyById(id: ID): CurrencyResult
 
-    getAllCategories: [Category!]!
-    getCategoryById(id: ID): Category
+    getAllCategories: [Category]
+    getCategoryById(id: ID): CategoryResult
 
     getAllMaterials: [Material!]!
-    getMaterialById(id: ID): Material
+    getMaterialById(id: ID): MaterialResult
 
     getAllPatterns: [Pattern!]!
-    getPatternById(id: ID): Pattern
+    getPatternById(id: ID): PatternResult
 
     getAllNews: [News!]!
-    getNewsById(id: ID): News
+    getNewsById(id: ID): NewsResult
 
     getAllUsers: [User]
     getUserByToken: User
     getUserById(id: ID!): User
 
-    getAllProducts: [Products!]!
     getProductsById(id: ID!): Products
-    getProductsByOptions(
+    getProducts(
       filter: FilterInput
       limit: Int
       skip: Int
@@ -161,7 +170,8 @@ const typeDefs = gql`
     ): [Products]!
 
     getAllComments: [Comments]
-    getCommentsById(id: ID!): Comments
+    getCommentById(id: ID!): Comments
+    getAllCommentsByProduct(id: ID!): [Comments]
   }
 
   input SortInput {
@@ -189,7 +199,7 @@ const typeDefs = gql`
   }
 
   input AuthorInput {
-    name: String!
+    name: [LanguageInput]
     image: ImageSetInput
   }
 
@@ -253,23 +263,23 @@ const typeDefs = gql`
 
     "Material Mutation"
     addMaterial(material: MaterialInput!): Material
-    deleteMaterial(id: ID!): Material
-    updateMaterial(id: ID!, material: MaterialInput!): Material
+    deleteMaterial(id: ID!): MaterialResult
+    updateMaterial(id: ID!, material: MaterialInput!): MaterialResult
 
     "Category Mutation"
     addCategory(category: CategoryInput!): Category
-    deleteCategory(id: ID!): Category
-    updateCategory(id: ID!, category: CategoryInput!): Category
+    deleteCategory(id: ID!): CategoryResult
+    updateCategory(id: ID!, category: CategoryInput!): CategoryResult
 
     "Currency Mutation"
     addCurrency(currency: CurrencyInput!): Currency
-    deleteCurrency(id: ID!): Currency
-    updateCurrency(id: ID!, currency: CurrencyInput!): Currency
+    deleteCurrency(id: ID!): CurrencyResult
+    updateCurrency(id: ID!, currency: CurrencyInput!): CurrencyResult
 
     "News Mutation"
     addNews(news: NewsInput!): News
-    deleteNews(id: ID!): News
-    updateNews(id: ID!, news: NewsInput!): News
+    deleteNews(id: ID!): NewsResult
+    updateNews(id: ID!, news: NewsInput!): NewsResult
 
     "User Mutation"
     registerUser(user: UserInput!): User
@@ -279,14 +289,14 @@ const typeDefs = gql`
     updateUserByToken(user: UserInput!): User
 
     "Products Mutation"
-    addProducts(product: productsInput!): Products
-    deleteProducts(id: ID!): Products
-    updateProductById(id: ID!, product: productsInput!): Products
+    addProduct(product: productsInput!): Products
+    deleteProduct(id: ID!): Products
+    updateProduct(id: ID!, product: productsInput!): Products
 
     "Comments Mutation"
-    addComments(comment: commentsInput!): Comments
-    deleteCommentsById(id: ID!): Products
-    updateCommentsById(id: ID!, product: commentsInput!): Comments
+    addComment(comment: commentsInput!): Comments
+    deleteComment(id: ID!): Products
+    updateComment(id: ID!, product: commentsInput!): Comments
   }
 `;
 

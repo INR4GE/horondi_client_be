@@ -1,11 +1,7 @@
-const Products = require('./products.model');
+const Products = require('./product.model');
 const Size = require('../../models/Size');
 
 class ProductsService {
-  getAllProducts() {
-    return Products.find();
-  }
-
   getProductsById(id) {
     return Products.findById(id);
   }
@@ -17,7 +13,10 @@ class ProductsService {
   filterItems(args = {}) {
     const filter = {};
     const {
-      pattern, colors, price, isHotItem,
+      pattern = [],
+      colors = [],
+      price = [0, 999999],
+      isHotItem = null,
     } = args;
 
     if (colors.length) {
@@ -34,7 +33,7 @@ class ProductsService {
         },
       };
     }
-    if (price) {
+    if (price.length) {
       filter.basePrice = {
         $gte: price[0],
         $lte: price[1],
@@ -46,7 +45,7 @@ class ProductsService {
     return filter;
   }
 
-  async getProductsByOptions({
+  getProducts({
     filter, skip, limit, sort, search,
   }) {
     const isNotBlank = str => !(!str || str.trim().length === 0);
@@ -71,16 +70,16 @@ class ProductsService {
       .sort(sort);
   }
 
-  updateProductById(id, products) {
+  updateProduct(id, products) {
     return Products.findByIdAndUpdate(id, products);
   }
 
-  addProducts(data) {
+  addProduct(data) {
     const product = new Products(data);
     return product.save();
   }
 
-  deleteProducts(id) {
+  deleteProduct(id) {
     return Products.findByIdAndDelete(id);
   }
 }
