@@ -187,6 +187,7 @@ const typeDefs = gql`
     colors: [String]
     price: [Int]
     isHotItem: Boolean
+    subcategory: String
   }
 
   input RoleEnumInput {

@@ -8,7 +8,7 @@ description: [Language]!
 mainMaterial: [Language]!
 innerMaterial: [Language]!
 strapLengthInCm: Int!
-images: [PrimaryImage]!
+images: PrimaryImage!
 colors: [Color]!
 pattern: [Language]
 patternImages: ImageSet
@@ -33,7 +33,7 @@ description: [LanguageInput]!
 mainMaterial: [LanguageInput]!
 innerMaterial: [LanguageInput]!
 strapLengthInCm: Int!
-images: [PrimaryImageInput]!
+images: PrimaryImageInput!
 colors: [ColorInput]!
 pattern: [LanguageInput]
 patternImages: ImageSetInput

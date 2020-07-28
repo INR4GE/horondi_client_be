@@ -17,6 +17,7 @@ class ProductsService {
       colors = [],
       price = [0, 999999],
       isHotItem = null,
+      category = '',
     } = args;
 
     if (colors.length) {
@@ -41,6 +42,9 @@ class ProductsService {
     }
     if (isHotItem) {
       filter.isHotItem = isHotItem;
+    }
+    if (category) {
+      filter.subcategory = category;
     }
     return filter;
   }
