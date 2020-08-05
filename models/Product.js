@@ -36,15 +36,17 @@ const productSchema = new mongoose.Schema({
         ref: 'Material',
       },
       bottomColor: [Language],
-      additions: [{
-        name: [Language],
-        description: [Language],
-        available: Boolean,
-        additionalPrice: {
-          type: Number,
-          default: 0,
+      additions: [
+        {
+          name: [Language],
+          description: [Language],
+          available: Boolean,
+          additionalPrice: {
+            type: Number,
+            default: 0,
+          },
         },
-      }],
+      ],
       availableCount: Number,
     },
   ],
