@@ -16,13 +16,14 @@ const userQuery = {
   getUserByToken: (parent, args, context) => {
     userService.getUser(context.user._id);
   },
-  getUserById: (parent, args, context) => (context.user
-    ? userService.getUser(args.id)
-    : new Error(USER_NOT_AUTHORIZE)),
+  // getUserById: (parent, args, context) => (context.user
+  //   ? userService.getUser(args.id)
+  //   : new Error(USER_NOT_AUTHORIZE)),
 };
 const userMutation = {
   registerUser: (parent, args) => userService.registerUser(args.user),
   loginUser: (parent, args) => userService.loginUser(args.user),
+  loginAdmin: (parent, args) => userService.loginAdmin(args.user),
   deleteUser: (parent, args) => userService.deleteUser(args.id),
   updateUserById: (parent, args, context) => {
     context.user

@@ -128,6 +128,66 @@ class UserService {
     );
   }
 
+  async loginAdmin({ email, password }) {
+    const { errors } = await validateLoginInput.validateAsync({
+      email,
+      password,
+    });
+
+    if (errors) {
+      throw new UserInputError('Errors', {
+        errors,
+      });
+    }
+
+    const user = await this.getUserByFieldOrThrow('email', email);
+
+    const match = await bcrypt.compare(
+      password,
+      user.credentials.find(cred => cred.source === 'horondi').tokenPass,
+    );
+    if (user.role === 'user') {
+      throw new AuthenticationError(
+        `${JSON.stringify([
+          {
+            lang: 'uk',
+            value: 'Немає доступу!',
+          },
+          {
+            lang: 'eng',
+            value: 'No access!',
+          },
+        ])}`,
+      );
+    }
+
+    if (!match) {
+      throw new AuthenticationError(
+        `${JSON.stringify([
+          {
+            lang: 'uk',
+            value: 'Невірний пароль',
+          },
+          {
+            lang: 'eng',
+            value: 'Wrong password',
+          },
+        ])}`,
+      );
+    }
+
+    const token = generateToken(user._id, user.email);
+
+    return {
+      user: {
+        ...user._doc,
+      },
+      id: user._id,
+      role: user.role,
+      token,
+    };
+  }
+
   async loginUser({ email, password }) {
     const { errors } = await validateLoginInput.validateAsync({
       email,
