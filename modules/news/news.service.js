@@ -32,7 +32,7 @@ class NewsService {
     const newsCount = await News.countDocuments({
       title: {
         $elemMatch: {
-          $or: [{ value: data.title[0].value }, { value: data.title[1].value }],
+          $or: [{ value: data.title[0].value }],
         },
       },
     });
