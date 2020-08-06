@@ -1,7 +1,7 @@
 const Material = require('./material.model');
 const {
   MATERIAL_ALREADY_EXIST,
-  // MATERIAL_NOT_FOUND,
+  MATERIAL_NOT_FOUND,
 } = require('../../error-messages/material.messages');
 
 class MaterialsService {

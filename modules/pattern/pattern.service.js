@@ -1,7 +1,7 @@
 const Pattern = require('./pattern.model');
 const {
   PATTERN_ALREADY_EXIST,
-  // PATTERN_NOT_FOUND,
+  PATTERN_NOT_FOUND,
 } = require('../../error-messages/pattern.messages');
 
 class PatternsService {

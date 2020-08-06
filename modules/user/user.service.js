@@ -123,34 +123,13 @@ class UserService {
       password,
       user.credentials.find(cred => cred.source === 'horondi').tokenPass,
     );
+
     if (user.role === 'user') {
-      throw new AuthenticationError(
-        `${JSON.stringify([
-          {
-            lang: 'uk',
-            value: 'Немає доступу!',
-          },
-          {
-            lang: 'eng',
-            value: 'No access!',
-          },
-        ])}`,
-      );
+      throw new AuthenticationError(`No access!`);
     }
 
     if (!match) {
-      throw new AuthenticationError(
-        `${JSON.stringify([
-          {
-            lang: 'uk',
-            value: 'Невірний пароль',
-          },
-          {
-            lang: 'eng',
-            value: 'Wrong password',
-          },
-        ])}`,
-      );
+      throw new AuthenticationError(`Wrong password!`);
     }
 
     const token = generateToken(user._id, user.email);
@@ -159,7 +138,7 @@ class UserService {
       user: {
         ...user._doc,
       },
-      id: user._id,
+      _id: user._id,
       role: user.role,
       token,
     };
