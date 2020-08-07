@@ -16,11 +16,11 @@ class ProductsService {
   filterItems(args = {}) {
     const filter = {};
     const {
-      pattern, colors, price, category, isHotItem
+      pattern, colors, price, category, isHotItem,
     } = args;
 
 
-    if(isHotItem){
+    if (isHotItem) {
       filter.isHotItem = isHotItem
     }
     if (category && category.length) {

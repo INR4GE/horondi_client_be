@@ -34,11 +34,7 @@ class NewsService {
   async checkNewsExist(data, id) {
     const newsCount = await News.countDocuments({
       _id: { $ne: id },
-      title: {
-        $elemMatch: {
-          $or: [{ value: data.title[0].value }, { value: data.title[1].value }],
-        },
-      },
+      title: data.title,
     });
     return newsCount > 0;
   }

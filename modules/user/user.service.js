@@ -19,7 +19,7 @@ const {
   USER_NOT_FOUND,
   INPUT_NOT_VALID,
   WRONG_CREDENTIALS,
-  INVALID_PERMISSIONS
+  INVALID_PERMISSIONS,
 } = require('../../error-messages/user.messages');
 
 const ROLES = {
