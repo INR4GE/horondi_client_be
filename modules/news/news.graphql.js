@@ -4,6 +4,7 @@ _id: ID!
 title: String
 text: String
 images: PrimaryImage
+lang: String
 author: Author
 date: String
 show: Boolean
@@ -14,6 +15,7 @@ input NewsInput {
 title: String
 text: String
 images: PrimaryImageInput
+lang: String
 author: AuthorInput
 date: String
 show: Boolean
