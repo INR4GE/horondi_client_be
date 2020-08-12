@@ -48,11 +48,13 @@ class CommentsService {
   async updateRate(id, data) {
     const product = await Product.findById(id);
     const { rateCount, userRates } = product;
-    const votedUser = userRates.find(({ user }) => String(user) === data.user);
-    const rateSum = product.rate * rateCount - votedUser.rate + data.rate;
+    const { user, rate } = userRates.find(
+      ({ user }) => String(user) === data.user,
+    );
+    const rateSum = product.rate * rateCount - rate + data.rate;
     const newRate = rateSum / rateCount;
 
-    const newUserRates = userRates.map(item => (String(item.user) === String(votedUser.user)
+    const newUserRates = userRates.map(item => (String(item.user) === String(user)
       ? { user: item.user, rate: data.rate }
       : item));
 
