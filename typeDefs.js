@@ -322,6 +322,10 @@ const typeDefs = gql`
     addComment(productId: ID!, comment: commentInput!): CommentResult
     deleteComment(id: ID!): Comment
     updateComment(id: ID!, product: commentInput!): Comment
+
+    "Rate Mutation"
+    addRate(product: ID!, rate: UserRateInput!): Product
+    updateRate(product: ID!, rate: UserRateInput!): Product
   }
 `;
 

@@ -27,5 +27,43 @@ class CommentsService {
   deleteComment(id) {
     return Comments.findByIdAndDelete(id);
   }
+
+  async addRate(id, data) {
+    const product = await Product.findById(id);
+    let { rateCount } = product;
+    const rateSum = product.rate * rateCount + data.rate;
+    const newRate = rateSum / ++rateCount;
+
+    return Product.findByIdAndUpdate(
+      id,
+      {
+        rate: newRate,
+        rateCount: rateCount++,
+        userRates: [...product.userRates, data],
+      },
+      { new: true },
+    );
+  }
+
+  async updateRate(id, data) {
+    const product = await Product.findById(id);
+    const { rateCount, userRates } = product;
+    const votedUser = userRates.find(({ user }) => String(user) === data.user);
+    const rateSum = product.rate * rateCount - votedUser.rate + data.rate;
+    const newRate = rateSum / rateCount;
+
+    const newUserRates = userRates.map(item => (String(item.user) === String(votedUser.user)
+      ? { user: item.user, rate: data.rate }
+      : item));
+
+    return Product.findByIdAndUpdate(
+      id,
+      {
+        rate: newRate,
+        userRates: newUserRates,
+      },
+      { new: true },
+    );
+  }
 }
 module.exports = new CommentsService();
