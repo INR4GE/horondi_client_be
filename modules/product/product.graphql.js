@@ -14,7 +14,7 @@ pattern: [Language]
 patternImages: ImageSet
 closure: [Language]!
 closureColor: String
-basePrice: Int!
+basePrice: [Price]!
 options: [ProductOptions]!
 available: Boolean!
 isHotItem: Boolean!

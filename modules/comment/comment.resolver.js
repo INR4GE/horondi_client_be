@@ -40,8 +40,8 @@ const commentsMutation = {
     };
   },
   updateComment: (parent, args) => commentsService.updateComment(args.id, args.comment),
-  addRate: (parent, args) => commentsService.addRate(args.product, args.rate),
-  updateRate: (parent, args) => commentsService.updateRate(args.product, args.rate),
+  addRate: (parent, args) => commentsService.addRate(args.product, args.userRate),
+  updateRate: (parent, args) => commentsService.updateRate(args.product, args.userRate),
 };
 
 module.exports = { commentsQuery, commentsMutation };

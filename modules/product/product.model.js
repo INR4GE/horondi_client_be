@@ -24,7 +24,12 @@ const productSchema = new mongoose.Schema({
   patternImages: ImageSet,
   closure: [Language],
   closureColor: String,
-  basePrice: Number,
+  basePrice: [
+    {
+      currency: String,
+      value: Number,
+    },
+  ],
   options: [
     {
       size: {
@@ -42,8 +47,18 @@ const productSchema = new mongoose.Schema({
           description: [Language],
           available: Boolean,
           additionalPrice: {
-            type: Number,
-            default: 0,
+            type: [
+              {
+                currency: String,
+                value: Number,
+              },
+            ],
+            default: [
+              {
+                currency: String,
+                value: 0,
+              },
+            ],
           },
         },
       ],

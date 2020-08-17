@@ -9,8 +9,18 @@ const SizeSchema = new mongoose.Schema({
   weightInKg: Number,
   available: Boolean,
   additionalPrice: {
-    type: Number,
-    default: 0,
+    type: [
+      {
+        currency: String,
+        value: Number,
+      },
+    ],
+    default: [
+      {
+        currency: String,
+        value: 0,
+      },
+    ],
   },
 });
 

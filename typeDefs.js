@@ -105,7 +105,7 @@ const typeDefs = gql`
     name: [Language]
     description: [Language]
     available: Boolean
-    additionalPrice: Int
+    additionalPrice: [Price]
   }
 
   type Size {
@@ -116,7 +116,7 @@ const typeDefs = gql`
     volumeInLiters: Int
     weightInKg: Float
     available: Boolean
-    additionalPrice: Int
+    additionalPrice: [Price]
   }
 
   type BottomMaterial {
@@ -124,7 +124,7 @@ const typeDefs = gql`
     description: [Language]
     colors: [Color]
     available: Boolean
-    additionalPrice: Int
+    additionalPrice: [Price]
   }
 
   type UserForComment {
@@ -137,7 +137,6 @@ const typeDefs = gql`
   type UserRate {
     user: User!
     rate: Int
-    lastUpdatedDate: String
   }
 
   type Error {
@@ -148,6 +147,11 @@ const typeDefs = gql`
   type PaginatedProducts {
     items: [Product]
     count: Int
+  }
+
+  type Price {
+    currency: String
+    value: Int
   }
 
   union CategoryResult = Category | Error
@@ -249,7 +253,6 @@ const typeDefs = gql`
   input UserRateInput {
     user: ID!
     rate: Int
-    lastUpdatedDate: String
   }
   input ImageSetInput {
     large: String
@@ -324,8 +327,8 @@ const typeDefs = gql`
     updateComment(id: ID!, product: commentInput!): Comment
 
     "Rate Mutation"
-    addRate(product: ID!, rate: UserRateInput!): Product
-    updateRate(product: ID!, rate: UserRateInput!): Product
+    addRate(product: ID!, userRate: UserRateInput!): Product
+    updateRate(product: ID!, userRate: UserRateInput!): Product
   }
 `;
 

@@ -8,8 +8,18 @@ const materialSchema = new mongoose.Schema({
   colors: [Color],
   available: Boolean,
   additionalPrice: {
-    type: Number,
-    default: 0,
+    type: [
+      {
+        currency: String,
+        value: Number,
+      },
+    ],
+    default: [
+      {
+        currency: String,
+        value: 0,
+      },
+    ],
   },
 });
 
