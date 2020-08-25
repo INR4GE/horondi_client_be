@@ -84,6 +84,19 @@
             "name": "Error"
           }
         ]
+
+      },
+      {
+        "kind": "UNION",
+        "name": "EmailChatResult",
+        "possibleTypes": [
+          {
+            "name": "EmailChat"
+          },
+          {
+            "name": "Error"
+          }
+        ]
       }
     ]
   }

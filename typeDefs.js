@@ -30,6 +30,10 @@ const {
   commentType,
   commentInput,
 } = require('./modules/comment/comment.graphql');
+const {
+  emailChatType,
+  emailChatInput,
+} = require('./modules/email-chat/email-chat.graphql');
 
 const typeDefs = gql`
   ${categoryType}
@@ -40,6 +44,7 @@ const typeDefs = gql`
   ${userType}
   ${productType}
   ${commentType}
+  ${emailChatType}
 
   enum RoleEnum {
     admin
@@ -175,6 +180,12 @@ const typeDefs = gql`
     isSuccess: Boolean
   }
 
+  type EmailAnswer {
+    admin: User
+    date: String
+    text: String
+  }
+
   union CategoryResult = Category | Error
   union CurrencyResult = Currency | Error
   union MaterialResult = Material | Error
@@ -183,6 +194,7 @@ const typeDefs = gql`
   union ProductResult = Product | Error
   union CommentResult = Comment | Error
   union LogicalResult = SuccessfulResponse | Error
+  union EmailChatResult = EmailChat | Error
 
   type Query {
     getAllCurrencies: [Currency!]!
@@ -215,6 +227,9 @@ const typeDefs = gql`
 
     getCommentById(id: ID!): CommentResult
     getAllCommentsByProduct(productId: ID!): [CommentResult]
+
+    getAllEmailChats: [EmailChat]
+    getEmailChatById(id: ID!): EmailChatResult
 
     getModelsbyCategory(id: ID!): [Model]
   }
@@ -256,6 +271,7 @@ const typeDefs = gql`
   ${commentInput}
   ${LoginInput}
   ${userRegisterInput}
+  ${emailChatInput}
 
   input LanguageInput {
     lang: String!
@@ -334,6 +350,12 @@ const typeDefs = gql`
     additionalPrice: [CurrencySetInput]
   }
 
+  input EmailAnswerInput {
+    admin: ID
+    date: String
+    text: String
+  }
+
   type Mutation {
     "Pattern Mutations"
     addPattern(pattern: PatternInput!): PatternResult
@@ -381,6 +403,11 @@ const typeDefs = gql`
     addComment(productId: ID!, comment: commentInput!): CommentResult
     deleteComment(id: ID!): CommentResult
     updateComment(id: ID!, comment: commentInput!): CommentResult
+
+    "EmailChat Mutation"
+    addEmailChat(chat: EmailChatInput!): EmailChat
+    updateEmailChat(id: ID!, chat: EmailChatInput!): EmailChatResult
+    deleteEmailChat(id: ID!): EmailChatResult
   }
 `;
 
