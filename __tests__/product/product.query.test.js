@@ -25,6 +25,7 @@ describe('Product queries', () => {
     });
     productId = createProduct.data.addProduct._id;
   });
+
   test('#1 Should receive all products', async () => {
     const products = await client.query({
       query: gql`
@@ -82,6 +83,11 @@ describe('Product queries', () => {
               _id
               name {
                 value
+              }
+              model {
+                name {
+                  value
+                }
               }
               category {
                 _id
