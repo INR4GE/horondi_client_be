@@ -73,16 +73,7 @@ const typeDefs = gql`
     source: String
     tokenPass: String
   }
-  type Model {
-    id: ID!
-    category: ID!
-    subcategory: ID!
-    name: [Language]
-    description: [Language]
-    images: [ImageSet]
-    priority: Int
-    show: Boolean
-  }
+
   type Address {
     country: String
     region: String
@@ -157,6 +148,17 @@ const typeDefs = gql`
   type UserRate {
     user: User!
     rate: Int!
+  }
+
+  type Model {
+    _id: ID!
+    category: ID!
+    subcategory: ID!
+    name: [Language]
+    description: [Language]
+    images: ImageSet
+    priority: Int
+    show: Boolean
   }
 
   type Error {
@@ -237,7 +239,7 @@ const typeDefs = gql`
     getAllEmailChats: [EmailChat]
     getEmailChatById(id: ID!): EmailChatResult
 
-    getModelsbyCategory(id: ID!): [Model]
+    getModelsByCategory(id: ID!): [Model]
 
     getContacts: [ContactResult!]!
     getContactById(id: ID!): ContactResult
@@ -258,6 +260,7 @@ const typeDefs = gql`
     category: [String]
     search: String
     isHotItem: Boolean
+    models: [String]
   }
   input RoleEnumInput {
     role: String
