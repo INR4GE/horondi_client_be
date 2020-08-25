@@ -1,17 +1,27 @@
-const { ApolloServer, AuthenticationError } = require('apollo-server');
+const {
+  ApolloServer,
+  AuthenticationError,
+  makeExecutableSchema,
+} = require('apollo-server');
+const { applyMiddleware } = require('graphql-middleware');
 const typeDefs = require('./typeDefs');
 const resolvers = require('./resolvers');
 const connectDB = require('./config/db');
 const userService = require('./modules/user/user.service');
 const verifyUser = require('./utils/verify-user');
 const { currencyWorker } = require('./currency.worker');
+const permissions = require('./permissions');
 
 connectDB();
 require('dotenv').config();
 
+const schema = applyMiddleware(
+  makeExecutableSchema({ typeDefs, resolvers }),
+  permissions,
+);
+
 const server = new ApolloServer({
-  typeDefs,
-  resolvers,
+  schema,
   context: async ({ req }) => {
     const { token } = req.headers || '';
     if (token) {
