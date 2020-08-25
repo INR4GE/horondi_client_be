@@ -374,6 +374,10 @@ const typeDefs = gql`
     available: Boolean
     additionalPrice: [CurrencySetInput]
   }
+  input UserRateInput {
+    user: ID!
+    rate: Int!
+  }
 
   input EmailAnswerInput {
     admin: ID
@@ -437,6 +441,9 @@ const typeDefs = gql`
     addContact(contact: contactInput!): ContactResult
     deleteContact(id: ID!): ContactResult
     updateContact(id: ID!, contact: contactInput!): ContactResult
+    "Rate Mutation"
+    addRate(product: ID!, userRate: UserRateInput!): Product
+    updateRate(product: ID!, userRate: UserRateInput!): Product
   }
 `;
 
