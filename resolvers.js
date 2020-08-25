@@ -11,6 +11,11 @@ const {
 } = require('./modules/comment/comment.resolver');
 
 const {
+  contactsQuery,
+  contactsMutation,
+} = require('./modules/contacts/contacts.resolver');
+
+const {
   currencyQuery,
   currencyMutation,
 } = require('./modules/currency/currency.resolver');
@@ -47,6 +52,7 @@ const SCHEMA_NAMES = {
   comment: 'Comment',
   successfulResponse: 'SuccessfulResponse',
   emailChat: 'EmailChat',
+  contact: 'Contact',
 };
 const resolvers = {
   Query: {
@@ -67,6 +73,8 @@ const resolvers = {
     ...commentsQuery,
 
     ...emailChatQuery,
+
+    ...contactsQuery,
   },
   Comment: {
     product: parent => productsService.getProductById(parent.product),
@@ -110,6 +118,8 @@ const resolvers = {
     ...commentsMutation,
 
     ...emailChatMutation,
+
+    ...contactsMutation,
   },
   CategoryResult: {
     __resolveType: obj => {
@@ -180,6 +190,14 @@ const resolvers = {
       console.log(obj);
       if (obj.text) {
         return SCHEMA_NAMES.emailChat;
+      }
+      return 'Eroor';
+    },
+  },
+  ContactResult: {
+    __resolveType: obj => {
+      if (obj.address) {
+        return SCHEMA_NAMES.contact;
       }
       return 'Error';
     },

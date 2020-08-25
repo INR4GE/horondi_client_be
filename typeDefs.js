@@ -34,6 +34,10 @@ const {
   emailChatType,
   emailChatInput,
 } = require('./modules/email-chat/email-chat.graphql');
+const {
+  contactType,
+  contactInput,
+} = require('./modules/contacts/contacts.graphql');
 
 const typeDefs = gql`
   ${categoryType}
@@ -45,6 +49,7 @@ const typeDefs = gql`
   ${productType}
   ${commentType}
   ${emailChatType}
+  ${contactType}
 
   enum RoleEnum {
     admin
@@ -195,6 +200,7 @@ const typeDefs = gql`
   union CommentResult = Comment | Error
   union LogicalResult = SuccessfulResponse | Error
   union EmailChatResult = EmailChat | Error
+  union ContactResult = Contact | Error
 
   type Query {
     getAllCurrencies: [Currency!]!
@@ -232,6 +238,9 @@ const typeDefs = gql`
     getEmailChatById(id: ID!): EmailChatResult
 
     getModelsbyCategory(id: ID!): [Model]
+
+    getContacts: [ContactResult!]!
+    getContactById(id: ID!): ContactResult
   }
 
   input SortInput {
@@ -272,6 +281,7 @@ const typeDefs = gql`
   ${LoginInput}
   ${userRegisterInput}
   ${emailChatInput}
+  ${contactInput}
 
   input LanguageInput {
     lang: String!
@@ -408,6 +418,10 @@ const typeDefs = gql`
     addEmailChat(chat: EmailChatInput!): EmailChat
     updateEmailChat(id: ID!, chat: EmailChatInput!): EmailChatResult
     deleteEmailChat(id: ID!): EmailChatResult
+    "Contacts Mutation"
+    addContact(contact: contactInput!): ContactResult
+    deleteContact(id: ID!): ContactResult
+    updateContact(id: ID!, contact: contactInput!): ContactResult
   }
 `;
 
