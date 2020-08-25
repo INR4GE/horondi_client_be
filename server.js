@@ -4,6 +4,7 @@ const {
   makeExecutableSchema,
 } = require('apollo-server');
 const { applyMiddleware } = require('graphql-middleware');
+const http = require('http');
 const typeDefs = require('./typeDefs');
 const resolvers = require('./resolvers');
 const connectDB = require('./config/db');
@@ -19,6 +20,17 @@ const schema = applyMiddleware(
   makeExecutableSchema({ typeDefs, resolvers }),
   permissions,
 );
+if (process.env.NODE_ENV === 'test') {
+  const HEALTH_PORT = process.env.HEALTH_PORT || 6000;
+
+  const app = http.createServer((req, res) => {
+    res.end('Health page!');
+  });
+
+  app.listen(HEALTH_PORT, () => {
+    console.log('Server Health started');
+  });
+}
 
 const server = new ApolloServer({
   schema,
@@ -36,5 +48,7 @@ const server = new ApolloServer({
   cors: { origin: '*' },
 });
 currencyWorker();
+
 const PORT = process.env.PORT || 5000;
+
 server.listen(PORT, () => console.log('apollo server started, port', PORT));

@@ -36,22 +36,6 @@ describe('queries', () => {
 
     userId = register.data.registerUser._id;
 
-    const authRes = await client.mutate({
-      mutation: gql`
-        mutation {
-          loginUser(
-            loginInput: {
-              email: "test.email@gmail.com"
-              password: "12345678Te"
-            }
-          ) {
-            token
-          }
-        }
-      `,
-    });
-    token = authRes.data.loginUser.token;
-
     await client.mutate({
       mutation: gql`
         mutation {
@@ -62,6 +46,7 @@ describe('queries', () => {
               email: "test.email@gmail.com"
               phoneNumber: "380666666666"
               role: "user"
+              confirmed: true
               address: {
                 country: "Ukraine"
                 city: "Kiev"
@@ -96,6 +81,21 @@ describe('queries', () => {
         },
       },
     });
+    const authRes = await client.mutate({
+      mutation: gql`
+        mutation {
+          loginUser(
+            loginInput: {
+              email: "test.email@gmail.com"
+              password: "12345678Te"
+            }
+          ) {
+            token
+          }
+        }
+      `,
+    });
+    token = authRes.data.loginUser.token;
   });
 
   test('should recive all users', async () => {
