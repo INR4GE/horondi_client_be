@@ -262,13 +262,16 @@ const typeDefs = gql`
     isHotItem: Boolean
     models: [String]
   }
+
   input RoleEnumInput {
     role: String
   }
+
   input PrimaryImageInput {
     primary: ImageSetInput!
     additional: [ImageSetInput!]
   }
+
   input AuthorInput {
     name: [LanguageInput]
     image: ImageSetInput
@@ -290,10 +293,12 @@ const typeDefs = gql`
     lang: String!
     value: String
   }
+
   input CurrencySetInput {
     currency: String!
     value: Int!
   }
+
   input AddressInput {
     country: String
     region: String
@@ -303,18 +308,21 @@ const typeDefs = gql`
     buildingNumber: String
     appartment: String
   }
+
   input UserForCommentInput {
     email: String!
     name: String
     images: ImageSetInput
     isAdmin: Boolean
   }
+
   input ImageSetInput {
     large: String
     medium: String
     small: String
     thumbnail: String
   }
+
   input ColorInput {
     code: Int!
     name: [LanguageInput!]
@@ -322,16 +330,19 @@ const typeDefs = gql`
     available: Boolean!
     simpleName: [LanguageInput!]
   }
+
   input ConvertOptionInput {
     name: String!
     exchangeRate: Float!
   }
+
   input SubcategoryInput {
     categoryCode: String!
     name: [LanguageInput!]
     images: ImageSetInput
     available: Boolean!
   }
+
   input CredentialInput {
     source: String
     tokenPass: String
@@ -356,6 +367,7 @@ const typeDefs = gql`
     available: Boolean
     additionalPrice: Int
   }
+
   input ProductOptionsAdditonalsInput {
     name: [LanguageInput!]
     description: [LanguageInput!]
@@ -380,7 +392,7 @@ const typeDefs = gql`
     updateMaterial(id: ID!, material: MaterialInput!): MaterialResult
 
     "Category Mutation"
-    addCategory(category: CategoryInput!): CategoryResult
+    addCategory(category: CategoryInput!, parentId: ID!): CategoryResult
     deleteCategory(id: ID!): CategoryResult
     updateCategory(id: ID!, category: CategoryInput!): CategoryResult
 

@@ -5,6 +5,13 @@ const {
 } = require('../../error-messages/currency.messages');
 
 class CurrencyService {
+  constructor() {
+    this.currencyTypes = {
+      UAH: 'UAH',
+      USD: 'USD',
+    };
+  }
+
   async getAllCurrencies() {
     return await Currency.find();
   }
@@ -45,6 +52,10 @@ class CurrencyService {
     throw new Error(CURRENCY_NOT_FOUND);
   }
 
+  async deleteAllCurrencies() {
+    await Currency.deleteMany({});
+  }
+
   async checkCurrencyExist(data, id) {
     const currenciesCount = await Currency.countDocuments({
       _id: { $ne: id },
@@ -60,4 +71,5 @@ class CurrencyService {
     return currenciesCount > 0;
   }
 }
+
 module.exports = new CurrencyService();

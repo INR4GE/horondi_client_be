@@ -15,6 +15,9 @@ describe('Product queries', () => {
             ... on Product {
               _id
             }
+            ... on Error {
+              message
+            }
           }
         }
       `,

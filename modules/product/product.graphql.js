@@ -41,7 +41,7 @@ images: PrimaryImageInput!
 colors: [ColorInput]! 
 pattern: [LanguageInput]
 patternImages: ImageSetInput
-closure: [LanguageInput]!
+closure: [LanguageInput]
 closureColor: String
 basePrice: [CurrencySetInput]!
 available: Boolean!
