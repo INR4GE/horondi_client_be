@@ -151,6 +151,7 @@ const typeDefs = gql`
   }
 
   type Model {
+    _id: ID!
     category: Category!
     subcategory: Category!
     name: [Language]
