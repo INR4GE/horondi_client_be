@@ -16,10 +16,6 @@ const permissions = require('./permissions');
 connectDB();
 require('dotenv').config();
 
-const schema = applyMiddleware(
-  makeExecutableSchema({ typeDefs, resolvers }),
-  permissions,
-);
 if (process.env.NODE_ENV === 'test') {
   const HEALTH_PORT = process.env.HEALTH_PORT || 6000;
 
@@ -33,7 +29,8 @@ if (process.env.NODE_ENV === 'test') {
 }
 
 const server = new ApolloServer({
-  schema,
+  typeDefs,
+  resolvers,
   context: async ({ req }) => {
     const { token } = req.headers || '';
     if (token) {
