@@ -18,6 +18,7 @@ class EmailChatService {
   }
 
   addEmailQuestion(data) {
+    data.answer = null;
     const emailChat = new EmailChat(data);
     return emailChat.save();
   }
