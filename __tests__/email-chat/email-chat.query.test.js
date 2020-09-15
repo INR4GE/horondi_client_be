@@ -76,7 +76,7 @@ describe('Questions queries', () => {
     expect(resultQuestion).toHaveProperty('status', 'PENDING');
     expect(resultQuestion.answer).toBeNull();
   });
-  test('#3 Should receive error if product ID is wrong', async () => {
+  test('#3 Should receive error if question ID is wrong', async () => {
     const badQuestion = await client.query({
       query: gql`
         query($id: ID!) {
