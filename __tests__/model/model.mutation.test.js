@@ -5,11 +5,6 @@ const {
   newCategory,
   newModelMutation,
   newModelUpdated,
-} = require('./model.variables');
-require('dotenv').config();
-
-let modelId; let categoryName; let
-    categoryId;
   wrongId,
 } = require('./model.variables');
 require('dotenv').config();
@@ -35,6 +30,7 @@ describe('Product queries', () => {
       `,
       variables: { category: newCategory },
     });
+    console.log(createCategory);
     categoryName = createCategory.data.addCategory.name;
     categoryId = createCategory.data.addCategory._id;
   });

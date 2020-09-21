@@ -128,7 +128,7 @@ describe('queries', () => {
     expect(res.data.getAllUsers).toContainEqual({
       firstName: 'Test',
       lastName: 'User',
-      email: 'test.email@gmail.com',
+      email: 'tests.email@gmail.com',
       phoneNumber: '380666666666',
       role: 'user',
       address: {

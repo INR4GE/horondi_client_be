@@ -155,7 +155,7 @@ describe('Order queries', () => {
         street: 'Бульвар Марії Приймаченко',
         city: 'Новомиргород',
         country: 'Україна',
-        zipcode: 98908,
+        zipcode: '98908',
         __typename: 'Address'
       },
       completed: false,
@@ -431,7 +431,7 @@ describe('Order queries', () => {
       country:"Україна",
       region:"Кіровоградська область",
       city:"Новомиргород",
-      zipcode:98908,
+      zipcode:'98908',
       street:"Бульвар Марії Приймаченко",
       buildingNumber:"25",
       appartment:"97",

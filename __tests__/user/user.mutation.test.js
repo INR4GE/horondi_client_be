@@ -17,9 +17,9 @@ let badId;
 let invitationalToken;
 
 const testUser = {
-  firstName: 'Petro',
-  lastName: 'Tatsenyak',
-  email: 'tacjka34@gmail.com',
+  firstName: 'Test',
+  lastName: 'Mutation',
+  email: 'test34@gmail.com',
   password: '12345678Pt',
   phoneNumber: '380666666666',
   role: 'admin',
@@ -73,7 +73,8 @@ describe('mutations', () => {
         email,
         password,
       },
-    });
+    }).catch(err=> err);
+    
     userId = res.data.registerUser._id;
 
     expect(typeof res.data.registerUser._id).toBe('string');
@@ -680,7 +681,6 @@ describe('User`s mutation restictions tests', () => {
       })
       .catch(err => err);
 
-    console.log(result);
     const userInfo = result.data;
 
     expect(userInfo.loginUser).not.toEqual(null);
