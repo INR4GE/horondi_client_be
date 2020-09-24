@@ -25,14 +25,14 @@ const server = new ApolloServer({
   context: async ({ req }) => {
     const { token } = req.headers || '';
 
-    logger.log({
-      level: 'info',
-      message: `method: ${req.method}/baseUrl: ${req.baseUrl}/date:${
-        req.fresh
-      }/ request headers: ${JSON.stringify(req.headers)}/body: ${JSON.stringify(
-        req.body
-      )}`,
-    });
+    // logger.log({
+    //   level: 'info',
+    //   message: `method: ${req.method}/baseUrl: ${req.baseUrl}/date:${
+    //     req.fresh
+    //   }/ request headers: ${JSON.stringify(req.headers)}/body: ${JSON.stringify(
+    //     req.body
+    //   )}`,
+    // });
     if (token) {
       const user = verifyUser(token);
       if (!user) throw new AuthenticationError('Invalid authorization token');
