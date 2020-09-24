@@ -444,6 +444,11 @@ const typeDefs = gql`
     value: ImageSetInput
   }
 
+  input MapImage {
+    lang: String!
+    image: Upload!
+  }
+
   input UserRateInput {
     rate: Int!
   }
@@ -531,9 +536,13 @@ const typeDefs = gql`
     deleteModel(id: ID!): ModelResult
 
     "Contacts Mutation"
-    addContact(contact: contactInput!): ContactResult
+    addContact(contact: contactInput!, mapImages: [MapImage]!): ContactResult
     deleteContact(id: ID!): ContactResult
-    updateContact(id: ID!, contact: contactInput!): ContactResult
+    updateContact(
+      id: ID!
+      contact: contactInput!
+      mapImages: [MapImage]
+    ): ContactResult
 
     "Order Mutation"
     addOrder(order: OrderInput!): OrderResult
