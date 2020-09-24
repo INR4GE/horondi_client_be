@@ -11,6 +11,7 @@ const { INVALID_PERMISSIONS } = require('./error-messages/user.messages');
 const logger = require('./logger');
 const errorOutputPlugin = require('./plugins/error-output.plugin');
 const formatError = require('./utils/format-error');
+const { currencyWorker } = require('./currency.worker');
 
 connectDB();
 require('dotenv').config();
@@ -51,6 +52,7 @@ const server = new ApolloServer({
 const PORT = process.env.PORT || 5000;
 
 const app = express();
+currencyWorker();
 
 app.get('/health', (req, res) => res.send('Health page!'));
 server.applyMiddleware({ app });
