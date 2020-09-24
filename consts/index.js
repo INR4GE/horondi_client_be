@@ -11,9 +11,11 @@ const horondiAddress = {
   city: 'Львів',
   buidingNumber: '8',
   flat: '1',
-}
+};
 
-const horondyCityRef = 'db5c88f5-391c-11dd-90d9-001a92567626'
+const horondyCityRef = 'db5c88f5-391c-11dd-90d9-001a92567626';
+
+const availableForRegistrationRoles = [roles.ADMIN];
 
 module.exports = {
   roles,
