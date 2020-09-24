@@ -215,10 +215,14 @@ const typeDefs = gql`
     value: ImageSet
   }
 
+  type PaginatedComments {
+    items: [Comment]
+    count: Int
+  }
+
   type SuccessfulResponse {
     isSuccess: Boolean
   }
-
 
   type EmailAnswer {
     admin: User!
@@ -280,6 +284,7 @@ const typeDefs = gql`
     getCommentById(id: ID!): CommentResult
     getAllCommentsByProduct(productId: ID!): [CommentResult]
     getAllCommentsByUser(userEmail: String!): [Comment]
+    getAllRecentComments(limit: Int, skip: Int): PaginatedComments!
 
     getAllBusinessTexts: [BusinessText]
     getBusinessTextById(id: ID!): BusinessTextResult
@@ -290,8 +295,8 @@ const typeDefs = gql`
     getContacts(limit: Int, skip: Int): PaginatedContacts!
     getContactById(id: ID!): ContactResult
 
-    getNovaPoshtaCities(city: String):[NovaPoshtaCity]
-    getNovaPoshtaStreets(cityRef: String, street: String):[NovaPoshtaStreet]
+    getNovaPoshtaCities(city: String): [NovaPoshtaCity]
+    getNovaPoshtaStreets(cityRef: String, street: String): [NovaPoshtaStreet]
     getNovaPoshtaWarehouses(city: String): [NovaPoshtaWarehouse]
     getNovaPoshtaPrices(data: NovaPoshtaPriceInput): [NovaPoshtaPrice]
     createNovaPoshtaOrder(data: NovaPoshtaOrderInput): NovaPoshtaOrderResult
@@ -300,7 +305,7 @@ const typeDefs = gql`
 
     getPaymentCheckout(data: PaymentInput): Payment
     getPaymentRefund(data: PaymentInput): Payment
-    
+
     getAllEmailQuestions: [EmailQuestion]
     getEmailQuestionById(id: ID!): EmailQuestionResult
   }
